@@ -1,0 +1,19 @@
+{
+  "call_id": "if_009__D,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with exactly one word. Nothing else."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "Tokyo",
+  "prompt_tokens": 91,
+  "completion_tokens": 130,
+  "latency_ms": 3896.0280418395996,
+  "timestamp": "2026-04-13T07:17:06"
+}

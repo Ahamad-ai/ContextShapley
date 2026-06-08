@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy stored in sugars. Using chlorophyll and other pigments to capture light, they take in carbon dioxide (CO2) and water (H2O) and, powered by sunlight, produce glucose (a sugar) while releasing oxygen (O2) as a byproduct.\n\nIn plants, photosynthesis occurs in chloroplasts. The light-dependent reactions in the thylakoid membranes use light to split water, releasing O2 and generating ATP and NADPH. The Calvin cycle in the stroma then uses ATP and NADPH to fix CO2 into carbohydrates. A simplified overall equation is: 6 CO2 + 6 H2O + light energy -> C6H12O6 + 6 O2.\n\nPhotosynthesis underpins most food webs, supplies the oxygen we breathe, and helps regulate Earth\u2019s climate by removing CO2 from the atmosphere. Different plants use variations (C3, C4, CAM) to optimize photosynthesis under different light, temperature, and water conditions.",
+  "prompt_tokens": 137,
+  "completion_tokens": 677,
+  "latency_ms": 8975.04210472107,
+  "timestamp": "2026-04-12T19:36:22"
+}

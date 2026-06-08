@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria use light energy to convert carbon dioxide and water into glucose and oxygen within chloroplasts containing chlorophyll. It involves light-dependent reactions that generate ATP and NADPH and the Calvin cycle that uses those molecules to fix carbon into carbohydrates.",
+  "prompt_tokens": 162,
+  "completion_tokens": 518,
+  "latency_ms": 7599.0941524505615,
+  "timestamp": "2026-04-12T20:01:07"
+}

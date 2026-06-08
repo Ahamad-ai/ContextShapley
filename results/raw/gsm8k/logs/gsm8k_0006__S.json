@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0006__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nA perfume company is trying to create new scents. They already have 4 vanilla scents and 8 fruity scents available and they need to decide which kind of scent to focus on. They decide to focus on whichever scent sells the most and monitor their number of sales as part of their research. By the end of the day, they sell 5 of each of the vanilla scents and 2 of each of the fruity scents available. How many more vanilla scents sold compared with the fruity scents?"
+    }
+  ],
+  "response_text": "- Number of vanilla scents: 4; sold 5 of each \u2192 total vanilla sold = 4 \u00d7 5 = 20\n- Number of fruity scents: 8; sold 2 of each \u2192 total fruity sold = 8 \u00d7 2 = 16\n- Difference (vanilla minus fruity) = 20 \u2212 16 = 4\n\n#### 4",
+  "prompt_tokens": 143,
+  "completion_tokens": 343,
+  "latency_ms": 4794.193267822266,
+  "timestamp": "2026-04-12T21:52:32"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Most earthquakes are caused by the sudden release of elastic strain along faults in the Earth\u2019s crust, where tectonic plates that are slowly driven by mantle convection, ridge push, and slab pull stick due to friction and then slip abruptly (the elastic rebound). This slip is common at plate boundaries: transform faults (e.g., San Andreas) where plates slide past, subduction and collision zones where plates converge (often producing the largest quakes), and mid-ocean ridges where plates diverge. Earthquakes also occur within plates when ancient faults are reactivated by changing stresses, and in volcanic regions where moving magma fractures rock. Additional contributors include isostatic adjustments (such as post-glacial rebound), landslides, and dynamic stress changes that trigger aftershocks and remote events. Human activities can induce seismicity as well, notably from fluid injection or withdrawal (wastewater disposal, geothermal operations, some oil and gas production, and, less commonly, hydraulic fracturing), large reservoirs altering crustal stresses, and deep mining.",
+  "prompt_tokens": 102,
+  "completion_tokens": 540,
+  "latency_ms": 8122.927904129028,
+  "timestamp": "2026-04-12T20:23:12"
+}

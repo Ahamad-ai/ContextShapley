@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5a810d7655429903bc27b915__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat instrument does Duff McKagan play on Macy Gray's single, Kissed It?"
+    }
+  ],
+  "response_text": "Bass guitar.",
+  "prompt_tokens": 61,
+  "completion_tokens": 269,
+  "latency_ms": 5367.904901504517,
+  "timestamp": "2026-04-12T21:11:11"
+}

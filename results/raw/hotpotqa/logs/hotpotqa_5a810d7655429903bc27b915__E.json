@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a810d7655429903bc27b915__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Which port city lies approximately 25 km north of the Lingnan Fine Arts Museum?\nA: Keelung\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\nQ: \"Tunak\", is a bhangra/pop love song by an artist born in which year ?\nA: 1967\n\n## Question\n\nWhat instrument does Duff McKagan play on Macy Gray's single, Kissed It?"
+    }
+  ],
+  "response_text": "Bass guitar.",
+  "prompt_tokens": 112,
+  "completion_tokens": 397,
+  "latency_ms": 7459.542036056519,
+  "timestamp": "2026-04-12T21:11:18"
+}

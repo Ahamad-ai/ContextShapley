@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria use light energy to convert carbon dioxide and water into chemical energy stored in sugars, releasing oxygen as a byproduct. In plants, it occurs in chloroplasts using the pigment chlorophyll.\n\n- Light-dependent reactions: In the thylakoid membranes, pigments absorb light, energizing electrons that drive an electron transport chain. Water is split to replace electrons, producing oxygen. The process generates ATP and NADPH.\n- Calvin cycle (light-independent reactions): In the stroma, the enzyme Rubisco fixes CO2 into organic molecules and, using ATP and NADPH from the light reactions, builds sugars (such as glucose).\n\nOverall, photosynthesis underpins most food webs and maintains Earth\u2019s oxygen-rich atmosphere while removing CO2 from the air. Different strategies help plants cope with environments: C3 is most common; C4 plants (e.g., maize) concentrate CO2 to reduce photorespiration; CAM plants (e.g., cacti) open stomata at night to save water. Some bacteria perform anoxygenic photosynthesis, using compounds like hydrogen sulfide instead of water and not producing oxygen.",
+  "prompt_tokens": 114,
+  "completion_tokens": 950,
+  "latency_ms": 12920.955896377563,
+  "timestamp": "2026-04-12T19:36:54"
+}

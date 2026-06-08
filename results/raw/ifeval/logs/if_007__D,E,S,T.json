@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__D,E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes occur when stress builds up in the Earth\u2019s crust and is suddenly released along faults, generating seismic waves in a process called elastic rebound; this stress most commonly arises from the movement of tectonic plates. The majority happen at plate boundaries\u2014subduction zones (convergent), transform faults, and mid-ocean ridges (divergent)\u2014while some occur within plates due to reactivated ancient faults or stresses from processes like glacial isostatic rebound. Earthquakes can also be triggered by volcanic activity as magma forces its way through rock, and certain human activities induce seismicity, including fluid injection or withdrawal (wastewater disposal, geothermal, oil and gas), large reservoirs impounding water, large-scale mining, and underground explosions.",
+  "prompt_tokens": 182,
+  "completion_tokens": 484,
+  "latency_ms": 6645.46799659729,
+  "timestamp": "2026-04-12T20:24:13"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0007__D,E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Valerie earns $5000 per month, 1/2 of what her brother earns. If their mother earns twice their combined salary, what's the total amount of money they all have together?\nA: The answer is #### 45000\n\nQ: Joe has $50 to buy an outfit for his new field trip. There is a 30% off sale at the clothing store. The shirt he picks out has a price of $25. He also picks out a pair of shorts for $35. Assuming that sales tax is included, how much money will Joe have left after the purchase?\nA: The answer is #### 8\n\nQ: Jordan has 2 children who wear diapers.  Each child requires 5 diaper changes per day.  Jordan's wife changes half of the diapers.  How many diapers does Jordan change per day?\nA: The answer is #### 5\n\n## Reference Documents\n\n## Arithmetic Reference\n- To find a total, add all quantities together.\n- To find a difference, subtract the smaller from the larger.\n- To find a rate, divide quantity by time.\n- To find a percentage, multiply by the decimal form (e.g., 20% = 0.20).\n- Always check your answer by working backwards.\n\n## Question\n\nMay is getting her hair cut and colored. It costs $40 for the color and $30 per inch of haircut. If her hair started at 10 inches and ended at 8, how much did her cut and color cost?"
+    }
+  ],
+  "response_text": "May's haircut cost is calculated by the amount of hair cut, which is 10 inches - 8 inches = 2 inches. At $30 per inch, this is 2 \u00d7 $30 = $60. Adding the color cost of $40, the total is $60 + $40 = $100.  \n\n#### 100",
+  "prompt_tokens": 372,
+  "completion_tokens": 669,
+  "latency_ms": 42588.56129646301,
+  "timestamp": "2026-04-13T18:45:11"
+}

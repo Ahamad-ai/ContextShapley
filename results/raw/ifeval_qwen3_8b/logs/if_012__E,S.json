@@ -1,0 +1,19 @@
+{
+  "call_id": "if_012__E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly 3 sentences. Each sentence must contain the word 'blue'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a color that evokes calmness, often associated with the sky and oceans. Blue can symbolize trust and stability, making it a popular choice in design. Blue\u2019s versatility allows it to blend seamlessly with both warm and cool tones.",
+  "prompt_tokens": 91,
+  "completion_tokens": 209,
+  "latency_ms": 6066.3018226623535,
+  "timestamp": "2026-04-13T07:35:30"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and many bacteria convert light energy into chemical energy, producing sugars from carbon dioxide and water. It occurs in chloroplasts where pigments like chlorophyll drive light-dependent reactions and the Calvin cycle, releasing oxygen as a byproduct.",
+  "prompt_tokens": 120,
+  "completion_tokens": 386,
+  "latency_ms": 7213.147163391113,
+  "timestamp": "2026-04-12T19:38:01"
+}

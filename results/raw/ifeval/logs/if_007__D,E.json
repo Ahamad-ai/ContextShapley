@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__D,E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Most earthquakes occur when stress builds up in Earth\u2019s crust from tectonic plate motions and is suddenly released as rocks slip along faults (elastic rebound).\n- Plate boundaries are common sites: transform faults (side-by-side sliding), convergent margins (subduction/compression), and divergent boundaries (spreading/rifting).\n- Intraplate earthquakes can happen within plates where old faults are reactivated by regional stresses.\n- Subduction zones often produce the largest earthquakes as one plate is forced beneath another.\n- Volcanic activity can trigger earthquakes as magma moves and fractures surrounding rock.\n- Human activities can induce seismicity, including fluid injection or withdrawal (wastewater disposal, geothermal, some fracking operations), large reservoirs (reservoir-induced), mining, and hydrocarbon extraction.\n- Sudden collapses (e.g., in karst or mines) and large landslides can generate small, local quakes.\n- Rarely, large meteor impacts cause seismic waves.\n- The sudden slip releases energy as seismic waves, which shake the ground and produce aftershocks as the crust readjusts.",
+  "prompt_tokens": 135,
+  "completion_tokens": 614,
+  "latency_ms": 8115.742921829224,
+  "timestamp": "2026-04-12T20:21:10"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_009__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "Tokyo.",
+  "prompt_tokens": 45,
+  "completion_tokens": 204,
+  "latency_ms": 4885.584115982056,
+  "timestamp": "2026-04-12T20:32:24"
+}

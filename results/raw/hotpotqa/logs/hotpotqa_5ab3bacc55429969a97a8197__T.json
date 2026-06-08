@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ab3bacc55429969a97a8197__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"Who sang lead vocals on the Oasis hit single which had an acoustic debut in drummer Tony McCarroll's last concert ? \", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Noel Gallagher.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWho sang lead vocals on the Oasis hit single which had an acoustic debut in drummer Tony McCarroll's last concert ? "
+    }
+  ],
+  "response_text": "Noel Gallagher.",
+  "prompt_tokens": 109,
+  "completion_tokens": 782,
+  "latency_ms": 13632.347822189331,
+  "timestamp": "2026-04-12T21:02:05"
+}

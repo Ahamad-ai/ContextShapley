@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ab61140554299110f2199d7__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"Who is known for composing  American Beauty: Original Motion Picture Score and many other film scores?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Thomas Montgomery Newman.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWho is known for composing  American Beauty: Original Motion Picture Score and many other film scores?"
+    }
+  ],
+  "response_text": "Thomas Newman (Thomas Montgomery Newman).",
+  "prompt_tokens": 98,
+  "completion_tokens": 273,
+  "latency_ms": 4628.645181655884,
+  "timestamp": "2026-04-12T21:19:21"
+}

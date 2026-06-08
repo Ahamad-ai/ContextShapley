@@ -1,0 +1,19 @@
+{
+  "call_id": "if_008__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use only words with 3 or fewer syllables. Keep response under 40 words."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a pull. It makes things fall down. Big things pull more. Earth pulls you and all things to it. It keeps your feet on the ground. It keeps the Moon near Earth and makes it go around.",
+  "prompt_tokens": 37,
+  "completion_tokens": 1271,
+  "latency_ms": 16518.368005752563,
+  "timestamp": "2026-04-12T20:25:22"
+}

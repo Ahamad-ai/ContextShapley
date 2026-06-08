@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5ac39f7b554299218029dbe7__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nRobert Earl Holding owned an oil company that was originally founded by who?"
+    }
+  ],
+  "response_text": "Harry Ford Sinclair.",
+  "prompt_tokens": 57,
+  "completion_tokens": 206,
+  "latency_ms": 4219.938039779663,
+  "timestamp": "2026-04-12T21:09:10"
+}

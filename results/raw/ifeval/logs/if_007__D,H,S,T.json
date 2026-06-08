@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__D,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Most earthquakes occur when stresses from the slow motion of Earth\u2019s tectonic plates build up along faults until rocks suddenly slip, releasing stored elastic energy as seismic waves; this \u201cstick-slip\u201d behavior is common at plate boundaries\u2014subduction zones, transform faults, and rift zones\u2014but can also happen on faults within plates. The rupture starts at a point underground called the focus (or hypocenter) and the shaking is felt at the surface above the epicenter. Other, less common causes include volcanic activity (magma movement fracturing rock), landslides or cave/cavity collapses, and large meteor impacts. Human activities can also induce seismicity, such as fluid injection or withdrawal (e.g., wastewater disposal, geothermal operations), reservoir impoundment, mining, and, rarely, large explosions. Regardless of the trigger, earthquakes reflect a rapid release of strain that propagates through the crust as compressional and shear waves.",
+  "prompt_tokens": 159,
+  "completion_tokens": 518,
+  "latency_ms": 6337.145090103149,
+  "timestamp": "2026-04-12T20:24:26"
+}

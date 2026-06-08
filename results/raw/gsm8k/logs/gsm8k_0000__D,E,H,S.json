@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0000__D,E,H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Ben has 4 tubes of blue paint and 3 tubes of yellow paint. Jasper has half as many tubes of blue paint as Ben, and three times as many tubes of yellow paint as Ben. How many tubes of paint does Jasper have?\nA: The answer is #### 11\n\nQ: Mary is two years younger than Joan, who is five years older than Jessa. If Jessa is 20 years old, what is the sum of the ages of the three girls?\nA: The answer is #### 68\n\nQ: Dominick went to his team's changing room and saw half as many robots as helmets and half as many helmets as footballs kept there. If there were 20 helmets, calculate the total number of items Dominick saw.\nA: The answer is #### 70\n\n## Reference Documents\n\n## Arithmetic Reference\n- To find a total, add all quantities together.\n- To find a difference, subtract the smaller from the larger.\n- To find a rate, divide quantity by time.\n- To find a percentage, multiply by the decimal form (e.g., 20% = 0.20).\n- Always check your answer by working backwards.\n\n## Conversation History\n\nUser: Can you help me solve a math problem?\nAssistant: Of course! Please share the problem and I'll work through it step by step.\nUser: Let me think about what information I have.\nAssistant: Take your time. Make sure to include all the numbers and details.\n\n## Question\n\nSean is practicing for his role in a theater production. He has to memorize his lines for two scenes and the lyrics to one solo song. His solo song has 54 lines in the lyrics. The first scene has twice the number of lines, but only a third of them are his lines. The second scene has six more lines than the song, and four-fifths of them are his. How many lines does Sean have to memorize?"
+    }
+  ],
+  "response_text": "- The solo song has 54 lines, all of which Sean must memorize.\n- The first scene has twice the number of lines as the song: 2 \u00d7 54 = 108 total lines, and one third are his: 108 \u00f7 3 = 36 lines.\n- The second scene has six more lines than the song: 54 + 6 = 60 total lines, and four-fifths are his: (4/5) \u00d7 60 = 48 lines.\n- Total lines to memorize = 54 (song) + 36 (first scene) + 48 (second scene) = 138.\n\n#### 138",
+  "prompt_tokens": 437,
+  "completion_tokens": 528,
+  "latency_ms": 6873.108863830566,
+  "timestamp": "2026-04-12T21:35:23"
+}

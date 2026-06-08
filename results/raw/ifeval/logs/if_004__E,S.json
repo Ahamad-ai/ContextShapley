@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water among oceans, atmosphere, land, and living things, powered by solar energy and guided by gravity. \n2. Water evaporates from oceans, lakes, and soils and transpires from plants, rising as vapor that cools and condenses into cloud droplets or ice crystals. \n3. Winds transport these clouds, and when droplets or crystals grow large enough they fall as precipitation such as rain, snow, sleet, or hail. \n4. Precipitation infiltrates into the ground to recharge soil moisture and aquifers, is taken up by plants, or flows as surface runoff into streams, rivers, and back to the oceans. \n5. Throughout the cycle, processes like sublimation, deposition, and evapotranspiration, along with storage in glaciers, groundwater, and surface waters, regulate timing and distribution of water so the system recycles but does not create new water.",
+  "prompt_tokens": 107,
+  "completion_tokens": 583,
+  "latency_ms": 8413.285255432129,
+  "timestamp": "2026-04-12T20:07:46"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_008__H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a gentle, invisible pull that all things have. Big things pull harder. Earth is very big, so it pulls you, your toys, and everything else toward it.\n\n- That\u2019s why things fall down when you drop them.\n- It\u2019s why you feel your weight and why your feet stay on the ground when you jump.\n- Gravity keeps the air and oceans from floating away.\n- It also keeps the Moon going around Earth and Earth going around the Sun.\n\nTry a simple experiment: hold two different small toys at the same height and let them go at the same time (over something soft). You\u2019ll see they hit the ground together. That\u2019s gravity pulling on both of them in the same way.",
+  "prompt_tokens": 86,
+  "completion_tokens": 858,
+  "latency_ms": 10371.619701385498,
+  "timestamp": "2026-04-12T20:28:37"
+}

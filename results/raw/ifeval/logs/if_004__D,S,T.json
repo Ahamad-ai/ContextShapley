@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__D,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water among oceans, atmosphere, land, and living organisms, driven by solar energy and gravity. \n2. Sunlight heats water in oceans, lakes, soils, and vegetation, causing evaporation and transpiration (evapotranspiration) and sometimes sublimation of ice, adding water vapor to the air. \n3. As moist air rises and cools, water vapor condenses onto tiny particles to form clouds and fog, releasing latent heat and creating droplets or ice crystals. \n4. When droplets or crystals grow large enough, they fall as precipitation such as rain, snow, sleet, or hail, which can accumulate as snowpack, recharge groundwater, or flow as surface runoff into streams and oceans. \n5. Water then infiltrates, percolates, and moves through soils, aquifers, and rivers back toward larger water bodies, where it can be re-evaporated, completing a cycle that regulates climate and supports ecosystems.",
+  "prompt_tokens": 128,
+  "completion_tokens": 915,
+  "latency_ms": 12384.822845458984,
+  "timestamp": "2026-04-12T20:10:32"
+}

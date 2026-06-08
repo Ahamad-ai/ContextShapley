@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adf1c3f5542993a75d263ec__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nIn which six Western European territories have Celtic languages or cultural traits survived?"
+    }
+  ],
+  "response_text": "The six Western European territories where Celtic languages or cultural traits have survived are: Scotland, Wales, Ireland, Brittany (France), the Isle of Man, and the Channel Islands.",
+  "prompt_tokens": 64,
+  "completion_tokens": 471,
+  "latency_ms": 23033.493041992188,
+  "timestamp": "2026-04-13T08:46:08"
+}

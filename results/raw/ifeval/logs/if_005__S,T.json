@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A BRANCH OF AI WHERE SYSTEMS LEARN PATTERNS FROM DATA TO MAKE PREDICTIONS OR DECISIONS WITHOUT BEING EXPLICITLY PROGRAMMED. COMMON PARADIGMS INCLUDE SUPERVISED, UNSUPERVISED, AND REINFORCEMENT LEARNING, POWERING APPLICATIONS LIKE RECOMMENDATIONS, VISION, SPEECH, AND FRAUD DETECTION.",
+  "prompt_tokens": 61,
+  "completion_tokens": 546,
+  "latency_ms": 11579.937934875488,
+  "timestamp": "2026-04-12T20:13:46"
+}

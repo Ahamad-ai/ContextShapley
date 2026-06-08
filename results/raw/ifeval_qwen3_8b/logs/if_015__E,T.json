@@ -1,0 +1,15 @@
+{
+  "call_id": "if_015__E,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhy is the sky blue?"
+    }
+  ],
+  "response_text": "The sky appears blue due to Rayleigh scattering, where shorter wavelengths of sunlight (like blue and violet) are scattered more by atmospheric molecules. Human eyes are more sensitive to blue light, and some violet light is absorbed by the atmosphere, making blue the dominant color we perceive.",
+  "prompt_tokens": 108,
+  "completion_tokens": 345,
+  "latency_ms": 10151.677131652832,
+  "timestamp": "2026-04-13T07:51:43"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_003__H,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in valid JSON format with a key called 'answer'."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "{\"answer\": \"The primary colors are red, blue, and yellow in the traditional RYB color model used in art and painting. In additive color mixing (light), the primary colors are red, green, and blue (RGB). For subtractive color mixing (printing), the primary colors are cyan, magenta, and yellow (CMY).\"}.",
+  "prompt_tokens": 108,
+  "completion_tokens": 458,
+  "latency_ms": 12372.038841247559,
+  "timestamp": "2026-04-13T00:18:24"
+}

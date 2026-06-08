@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ab3bacc55429969a97a8197__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWho sang lead vocals on the Oasis hit single which had an acoustic debut in drummer Tony McCarroll's last concert ? "
+    }
+  ],
+  "response_text": "Noel Gallagher.",
+  "prompt_tokens": 34,
+  "completion_tokens": 1422,
+  "latency_ms": 16573.260068893433,
+  "timestamp": "2026-04-12T21:00:51"
+}

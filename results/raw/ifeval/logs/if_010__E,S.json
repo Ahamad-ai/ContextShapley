@@ -1,0 +1,19 @@
+{
+  "call_id": "if_010__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use a numbered list (1. 2. 3. ...). Include exactly 8 items."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Question\n\nList the planets in our solar system."
+    }
+  ],
+  "response_text": "1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune",
+  "prompt_tokens": 107,
+  "completion_tokens": 298,
+  "latency_ms": 4947.051048278809,
+  "timestamp": "2026-04-12T20:34:41"
+}

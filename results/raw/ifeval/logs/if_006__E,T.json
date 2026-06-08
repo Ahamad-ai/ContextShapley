@@ -1,0 +1,15 @@
+{
+  "call_id": "if_006__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "France, Germany, Italy, Spain, Poland.",
+  "prompt_tokens": 104,
+  "completion_tokens": 404,
+  "latency_ms": 5539.7629737854,
+  "timestamp": "2026-04-12T20:17:22"
+}

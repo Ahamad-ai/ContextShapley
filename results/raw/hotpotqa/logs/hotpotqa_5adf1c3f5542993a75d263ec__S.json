@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adf1c3f5542993a75d263ec__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nIn which six Western European territories have Celtic languages or cultural traits survived?"
+    }
+  ],
+  "response_text": "Ireland, Scotland, Wales, Cornwall, Brittany, and the Isle of Man.",
+  "prompt_tokens": 57,
+  "completion_tokens": 346,
+  "latency_ms": 5545.776128768921,
+  "timestamp": "2026-04-12T21:16:48"
+}

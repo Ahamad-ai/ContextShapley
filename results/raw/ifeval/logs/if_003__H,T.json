@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the context:\n- Light (additive): red, green, blue (RGB)\n- Printing inks (subtractive): cyan, magenta, yellow (CMY; often with black, CMYK)\n- Traditional painting: red, yellow, blue (RYB)",
+  "prompt_tokens": 86,
+  "completion_tokens": 579,
+  "latency_ms": 8286.372184753418,
+  "timestamp": "2026-04-12T20:03:32"
+}

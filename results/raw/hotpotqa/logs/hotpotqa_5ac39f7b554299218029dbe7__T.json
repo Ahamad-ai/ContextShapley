@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ac39f7b554299218029dbe7__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"Robert Earl Holding owned an oil company that was originally founded by who?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Harry F. Sinclair.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nRobert Earl Holding owned an oil company that was originally founded by who?"
+    }
+  ],
+  "response_text": "Harry F. Sinclair.",
+  "prompt_tokens": 89,
+  "completion_tokens": 271,
+  "latency_ms": 4821.068048477173,
+  "timestamp": "2026-04-12T21:09:28"
+}

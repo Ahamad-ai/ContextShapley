@@ -1,0 +1,19 @@
+{
+  "call_id": "if_013__D,E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with only the number. No words, no punctuation, just the number."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is 15 + 27?"
+    }
+  ],
+  "response_text": "42",
+  "prompt_tokens": 161,
+  "completion_tokens": 110,
+  "latency_ms": 3731.084108352661,
+  "timestamp": "2026-04-13T07:41:42"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_015__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in Q&A format: restate the question, then answer. Use exactly 2 sentences for the answer."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhy is the sky blue?"
+    }
+  ],
+  "response_text": "**Question:** Why is the sky blue?  \n**Answer:** The sky appears blue because sunlight is scattered by air molecules, with shorter wavelengths (like blue) scattering more than longer ones. Our eyes are more sensitive to blue light, making the sky seem blue during the day.",
+  "prompt_tokens": 47,
+  "completion_tokens": 220,
+  "latency_ms": 6759.593963623047,
+  "timestamp": "2026-04-13T07:49:52"
+}

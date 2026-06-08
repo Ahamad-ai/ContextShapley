@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web and API development (Django, Flask, FastAPI)\n- Data analysis and visualization (NumPy, pandas, Matplotlib, seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting for system tasks and DevOps (CI/CD, AWS Lambda)\n- Scientific computing and research (SciPy, Jupyter)\n- Data engineering and ETL workflows (Airflow, Spark via PySpark)\n- Web scraping and bots (Requests, BeautifulSoup, Scrapy)\n- Testing and QA (pytest, Selenium)\n- Desktop and game development (Tkinter/PyQt, Pygame)\n- IoT and embedded systems (MicroPython, CircuitPython)\n- Education and rapid prototyping\n\nIt\u2019s popular for its readability, large ecosystem of libraries, cross-platform support, and strong community.",
+  "prompt_tokens": 75,
+  "completion_tokens": 694,
+  "latency_ms": 11405.667781829834,
+  "timestamp": "2026-04-12T20:37:51"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__E,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "- Red  \n- Blue  \n- Yellow",
+  "prompt_tokens": 113,
+  "completion_tokens": 315,
+  "latency_ms": 8703.871965408325,
+  "timestamp": "2026-04-13T00:16:04"
+}

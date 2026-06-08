@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__D,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water among oceans, atmosphere, land, and living things, powered by solar energy and guided by gravity. \n2. Water enters the atmosphere through evaporation from oceans, lakes, and soils, transpiration from plants (together called evapotranspiration), and sublimation from ice and snow. \n3. As moist air rises and cools, water vapor condenses onto tiny particles to form clouds and fog, releasing latent heat that influences weather patterns. \n4. When droplets or ice crystals become large enough, precipitation falls as rain, snow, sleet, or hail, with some intercepted by vegetation, some infiltrating soil to recharge groundwater, and the remainder running off into streams and rivers back to the ocean. \n5. Groundwater can slowly flow to springs, rivers, and coastal zones, while glaciers and seasonal snow store water and later release meltwater, helping regulate the timing and balance of the cycle over time.",
+  "prompt_tokens": 99,
+  "completion_tokens": 590,
+  "latency_ms": 8881.547212600708,
+  "timestamp": "2026-04-12T20:07:55"
+}

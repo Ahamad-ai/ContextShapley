@@ -1,0 +1,15 @@
+{
+  "call_id": "gsm8k_0006__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nA perfume company is trying to create new scents. They already have 4 vanilla scents and 8 fruity scents available and they need to decide which kind of scent to focus on. They decide to focus on whichever scent sells the most and monitor their number of sales as part of their research. By the end of the day, they sell 5 of each of the vanilla scents and 2 of each of the fruity scents available. How many more vanilla scents sold compared with the fruity scents?"
+    }
+  ],
+  "response_text": "The perfume company sold 5 units of each of the 4 vanilla scents, resulting in $4 \\times 5 = 20$ vanilla scents sold. They sold 2 units of each of the 8 fruity scents, resulting in $8 \\times 2 = 16$ fruity scents sold. The difference in the number of scents sold is $20 - 16 = 4$.\n\n$$\n\\boxed{4}\n$$",
+  "prompt_tokens": 118,
+  "completion_tokens": 884,
+  "latency_ms": 83299.53002929688,
+  "timestamp": "2026-04-13T17:47:46"
+}

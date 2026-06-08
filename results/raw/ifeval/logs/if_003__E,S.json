@@ -1,0 +1,19 @@
+{
+  "call_id": "if_003__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in valid JSON format with a key called 'answer'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "{\n  \"answer\": \"It depends on the color model: for light (additive) they are red, green, and blue (RGB); for pigments/printing (subtractive) they are cyan, magenta, and yellow (CMY). Traditionally in art, the RYB primaries are red, yellow, and blue.\"\n}",
+  "prompt_tokens": 96,
+  "completion_tokens": 784,
+  "latency_ms": 11581.021785736084,
+  "timestamp": "2026-04-12T20:02:18"
+}

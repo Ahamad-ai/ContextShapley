@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a810d7655429903bc27b915__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"What instrument does Duff McKagan play on Macy Gray's single, Kissed It?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: bass.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWhat instrument does Duff McKagan play on Macy Gray's single, Kissed It?"
+    }
+  ],
+  "response_text": "Bass guitar.",
+  "prompt_tokens": 94,
+  "completion_tokens": 269,
+  "latency_ms": 4311.61904335022,
+  "timestamp": "2026-04-12T21:11:32"
+}

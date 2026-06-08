@@ -1,0 +1,19 @@
+{
+  "call_id": "if_015__D,E,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in Q&A format: restate the question, then answer. Use exactly 2 sentences for the answer."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhy is the sky blue?"
+    }
+  ],
+  "response_text": "Q: Why is the sky blue?  \nSystem: Use exactly 2 sentences.  \nA: The sky appears blue due to Rayleigh scattering, where shorter wavelengths of light (like blue) are scattered more by atmospheric molecules. Human eyes perceive this scattered blue light more intensely than other colors.",
+  "prompt_tokens": 193,
+  "completion_tokens": 170,
+  "latency_ms": 5149.065971374512,
+  "timestamp": "2026-04-13T07:53:51"
+}

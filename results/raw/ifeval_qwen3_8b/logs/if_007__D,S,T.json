@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__D,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes are primarily caused by the sudden release of energy from the Earth's crust due to tectonic plates shifting, colliding, or sliding past each other. This movement builds stress along fault lines, and when the stress exceeds the rock's strength, it fractures, releasing seismic waves that cause shaking. Other factors include volcanic activity, magma movement, landslides, and human activities like reservoir filling or underground fluid injection.",
+  "prompt_tokens": 123,
+  "completion_tokens": 306,
+  "latency_ms": 7724.240779876709,
+  "timestamp": "2026-04-13T07:08:59"
+}

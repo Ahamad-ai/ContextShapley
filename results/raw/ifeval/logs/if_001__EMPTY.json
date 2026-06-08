@@ -1,0 +1,15 @@
+{
+  "call_id": "if_001__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Reduces risk of chronic diseases like heart disease, type 2 diabetes, and some cancers by improving cardiovascular health and metabolic function.\n- Supports mental health by boosting mood, lowering stress and anxiety, and improving sleep and cognitive function.\n- Builds strength and endurance, helping with weight management, bone density, balance, and overall daily functioning.",
+  "prompt_tokens": 15,
+  "completion_tokens": 270,
+  "latency_ms": 6425.406932830811,
+  "timestamp": "2026-04-12T19:53:24"
+}

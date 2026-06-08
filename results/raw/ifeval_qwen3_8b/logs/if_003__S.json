@@ -1,0 +1,19 @@
+{
+  "call_id": "if_003__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in valid JSON format with a key called 'answer'."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "{\n  \"answer\": \"The primary colors are red, blue, and yellow in the traditional RYB color model used in art and painting. In additive color mixing (like light), the primary colors are red, green, and blue (RGB). For subtractive color mixing (like printing), the primary colors are cyan, magenta, and yellow (CMY), with black (K) often added as CMYK.\"\n}",
+  "prompt_tokens": 36,
+  "completion_tokens": 325,
+  "latency_ms": 11162.431001663208,
+  "timestamp": "2026-04-13T00:14:13"
+}

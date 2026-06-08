@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__E,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Most earthquakes occur when stress builds up in Earth\u2019s crust due to the motion of tectonic plates and is suddenly released as rocks rupture along faults, sending out seismic waves; this process is described by the elastic rebound theory. The largest events typically happen at plate boundaries: subduction zones (megathrust quakes), transform faults (strike-slip quakes), and divergent boundaries (normal-fault quakes), though intraplate quakes can occur when old faults are reactivated by regional stresses, flexure, or isostatic rebound. Earthquakes can also be triggered by volcanic and magmatic movements, and by human activities such as fluid injection or withdrawal (e.g., wastewater disposal, geothermal operations), reservoir impoundment, mining, and underground explosions. Aftershocks follow a main shock as the crust readjusts, and their size and frequency diminish over time.",
+  "prompt_tokens": 167,
+  "completion_tokens": 508,
+  "latency_ms": 6771.715879440308,
+  "timestamp": "2026-04-12T20:24:19"
+}

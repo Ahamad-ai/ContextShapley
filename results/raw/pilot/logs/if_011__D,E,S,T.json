@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__D,E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is a general-purpose programming language used across many domains because it\u2019s easy to read, has a huge ecosystem of libraries, and runs on most platforms. Common uses include:\n- Web development: Building websites and APIs with Django, Flask, FastAPI.\n- Data analysis and visualization: Handling and plotting data with NumPy, pandas, Matplotlib, Seaborn, Plotly.\n- Machine learning and AI: Modeling and deployment with scikit-learn, TensorFlow, PyTorch.\n- Automation and scripting: Automating tasks, ETL jobs, and system admin work (pathlib, subprocess, requests).\n- Scientific computing and research: Numerical methods, simulations, and notebooks with SciPy, Jupyter, SymPy.\n- DevOps and cloud: Infrastructure scripts, CI/CD, and cloud automation (boto3 for AWS, Azure/GCP SDKs).\n- Data engineering: Building pipelines and schedulers with Airflow, Luigi, Prefect.\n- Web scraping and bots: Extracting web data with Beautiful Soup, Scrapy, Selenium.\n- Testing and QA: Unit and integration tests with unittest, pytest; browser testing with Selenium.\n- Desktop applications and GUIs: Creating apps with Tkinter, PyQt, PySide, Kivy.\n- Game development and graphics: Prototyping and tools with Pygame; scripting in Blender.\n- Networking and cybersecurity: Socket programming, packet analysis with Scapy.\n- Natural language processing: Text analysis and NLP pipelines with NLTK, spaCy, transformers.\n- Education and rapid prototyping: Teaching programming concepts and quickly validating ideas.\n- IoT and embedded systems: Running on microcontrollers with MicroPython and CircuitPython.\n\nIts popularity comes from readable syntax, a vast library ecosystem, strong community support, and ease of integration with other languages and systems. Is there anything else you need?",
+  "prompt_tokens": 172,
+  "completion_tokens": 1215,
+  "latency_ms": 15959.582328796387,
+  "timestamp": "2026-04-12T19:33:44"
+}

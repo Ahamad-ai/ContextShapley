@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the context:\n\n- Additive (light/screens): red, green, blue (RGB)\n- Subtractive (printing/modern pigments): cyan, magenta, yellow (often with black, CMYK)\n- Traditional art/painting: red, yellow, blue (RYB)\n\nIf you tell me the context (light, printing, or painting), I can focus on that set.",
+  "prompt_tokens": 15,
+  "completion_tokens": 410,
+  "latency_ms": 6258.529901504517,
+  "timestamp": "2026-04-12T20:01:27"
+}

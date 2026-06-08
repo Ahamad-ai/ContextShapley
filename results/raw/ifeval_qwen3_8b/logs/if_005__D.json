@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "{\n  \"answer\": \"Machine learning is a subset of artificial intelligence (AI) that enables systems to learn patterns from data, improve performance over time, and make decisions or predictions without explicit programming.\",\n  \"explanation\": \"It involves algorithms that analyze input data, identify relationships, and use these insights to forecast outcomes or optimize processes. Key types include supervised learning (e.g., classification, regression), unsupervised learning (e.g., clustering), and reinforcement learning (e.g., reward-based decision-making). Applications span fields like healthcare, finance, and natural language processing.\"\n}",
+  "prompt_tokens": 75,
+  "completion_tokens": 815,
+  "latency_ms": 22455.44409751892,
+  "timestamp": "2026-04-13T00:26:39"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants convert light energy into chemical energy. They use carbon dioxide and water to produce glucose and oxygen, sustaining growth and releasing oxygen into the atmosphere.",
+  "prompt_tokens": 149,
+  "completion_tokens": 179,
+  "latency_ms": 6093.6760902404785,
+  "timestamp": "2026-04-13T00:11:12"
+}

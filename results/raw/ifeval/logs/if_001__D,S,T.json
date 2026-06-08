@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__D,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health and endurance, reducing risk of heart disease and hypertension\n- Enhances mental health by boosting mood, reducing stress/anxiety, and sharpening cognitive function\n- Supports weight management by increasing metabolism, preserving muscle mass, and improving insulin sensitivity",
+  "prompt_tokens": 122,
+  "completion_tokens": 317,
+  "latency_ms": 6249.177694320679,
+  "timestamp": "2026-04-12T19:55:18"
+}

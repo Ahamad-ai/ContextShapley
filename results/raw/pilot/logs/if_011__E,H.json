@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__E,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web development (Django, Flask, FastAPI)\n- Data analysis and visualization (pandas, NumPy, Matplotlib, Seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting (system tasks, ETL pipelines, API integration)\n- Scientific computing and research (SciPy, Jupyter)\n- DevOps and infrastructure (Ansible, CI/CD scripts)\n- Testing and QA (pytest, unit/integration tests)\n- Web scraping and data collection (Requests, BeautifulSoup, Scrapy)\n- Desktop/CLI tools (Tkinter for GUIs, Click/Typer for command-line apps)\n- Education and rapid prototyping",
+  "prompt_tokens": 109,
+  "completion_tokens": 919,
+  "latency_ms": 13427.753925323486,
+  "timestamp": "2026-04-12T19:30:05"
+}

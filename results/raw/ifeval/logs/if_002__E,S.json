@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria capture light energy to convert carbon dioxide and water into glucose and oxygen. It takes place in chloroplasts, where light-dependent reactions generate ATP and NADPH that drive the Calvin cycle to fix CO2 into sugars, storing energy for growth and metabolism.",
+  "prompt_tokens": 86,
+  "completion_tokens": 586,
+  "latency_ms": 7776.640176773071,
+  "timestamp": "2026-04-12T19:57:45"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle is the continuous movement of water among the ocean, atmosphere, land, and living things, driven by solar energy and gravity.\n\n- Evaporation and transpiration: Sunlight heats liquid water in oceans, lakes, and soils, turning it into vapor (evaporation). Plants release water vapor through leaves (transpiration). Together, these are evapotranspiration. Ice and snow can also convert directly to vapor (sublimation).\n- Transport and condensation: Rising water vapor cools and condenses onto tiny particles to form cloud droplets or ice crystals (condensation). Winds move (advect) this moisture across regions.\n- Precipitation: When droplets or crystals grow large enough, they fall as rain, snow, sleet, or hail. Some precipitation re-evaporates before reaching the ground in dry air.\n- Surface pathways: On land, precipitation is partly intercepted by vegetation, partly runs off over the surface into streams and rivers, and partly evaporates back to the air.\n- Infiltration and groundwater: Some water infiltrates into soil, is stored as soil moisture, and percolates deeper to recharge aquifers. Groundwater then moves slowly and can feed springs, rivers, wetlands, or the ocean (baseflow).\n- Storage: Water is temporarily stored in compartments with different residence times\u2014minutes to days in the atmosphere, weeks to years in rivers and lakes, years to millennia in glaciers and deep groundwater, and thousands of years on average in the ocean.\n- Return to the ocean: Surface runoff and groundwater ultimately carry water and dissolved materials back to the ocean, closing the loop.\n\nHuman activities modify the cycle by altering land cover (changing runoff and evapotranspiration), building reservoirs (increasing evaporation and changing flow timing), pumping groundwater (lowering water tables), and warming the climate, which intensifies the cycle with heavier downpours and stronger evaporation in many regions.",
+  "prompt_tokens": 100,
+  "completion_tokens": 1231,
+  "latency_ms": 14145.957946777344,
+  "timestamp": "2026-04-12T20:09:33"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_013__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with only the number. No words, no punctuation, just the number."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is 15 + 27?"
+    }
+  ],
+  "response_text": "42",
+  "prompt_tokens": 73,
+  "completion_tokens": 158,
+  "latency_ms": 5079.925060272217,
+  "timestamp": "2026-04-13T07:41:05"
+}

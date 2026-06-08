@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants convert light energy into chemical energy. It uses carbon dioxide and water to produce glucose and oxygen, essential for growth and sustaining life.",
+  "prompt_tokens": 40,
+  "completion_tokens": 167,
+  "latency_ms": 4468.441963195801,
+  "timestamp": "2026-04-13T00:07:31"
+}

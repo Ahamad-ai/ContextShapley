@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__D,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is a general-purpose language used across many domains because it\u2019s readable, versatile, and has a large ecosystem.\n\n- Scripting and automation: writing quick scripts to manipulate files, process data, or automate workflows.\n- Web development: building APIs and websites (e.g., with Django, Flask, FastAPI).\n- Data analysis and visualization: cleaning, analyzing, and plotting data (e.g., pandas, NumPy, Matplotlib).\n- Machine learning and AI: modeling and deployment (e.g., scikit-learn, TensorFlow, PyTorch).\n- Scientific computing and research: numerical methods, simulations, notebooks (e.g., SciPy, Jupyter).\n- Data engineering and big data: ETL pipelines, orchestration, distributed processing (e.g., Airflow, PySpark).\n- DevOps and cloud: infrastructure automation, CI/CD scripts, serverless functions.\n- Web scraping and bots: extracting data from websites (e.g., Requests, Beautiful Soup, Scrapy).\n- Testing and QA: unit/integration tests, test automation (e.g., pytest).\n- Desktop GUIs and tools: building cross-platform applications (e.g., Tkinter, PyQt).\n- Game development and multimedia: simple games, prototypes (e.g., Pygame).\n- Networking and cybersecurity: packet analysis, tooling, automation.\n- Finance and quantitative analysis: research, backtesting, risk models.\n- IoT and embedded: programming microcontrollers (e.g., MicroPython, CircuitPython).\n- Education: teaching programming and computer science fundamentals.\n\nPeople choose Python for its readability, extensive libraries, strong community, and cross-platform support.",
+  "prompt_tokens": 114,
+  "completion_tokens": 979,
+  "latency_ms": 11589.462041854858,
+  "timestamp": "2026-04-12T19:30:31"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ae5ffbb5542996de7b71ad4__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nMicha\u00ebl Llodra of France, called \"the best volleyer on tour\", defeated Juan Mart\u00edn del Potro a professional of what nationality?"
+    }
+  ],
+  "response_text": "Juan Mart\u00edn del Potro is a professional tennis player from **Argentina**. \n\n**Answer:** Argentina.",
+  "prompt_tokens": 44,
+  "completion_tokens": 221,
+  "latency_ms": 85672.19805717468,
+  "timestamp": "2026-04-13T11:27:18"
+}

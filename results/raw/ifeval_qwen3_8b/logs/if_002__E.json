@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy (usually from the sun) into chemical energy stored in glucose. This process occurs in the chloroplasts of plant cells and involves two main stages:  \n\n1. **Light-Dependent Reactions**:  \n   - Chlorophyll (the pigment in chloroplasts) absorbs sunlight.  \n   - Water molecules are split into oxygen (released as a byproduct), protons, and electrons.  \n   - Energy from sunlight is used to produce ATP (energy-rich molecules) and NADPH (a carrier of high-energy electrons).  \n\n2. **Calvin Cycle (Light-Independent Reactions)**:  \n   - Carbon dioxide from the air is fixed into organic molecules using ATP and NADPH.  \n   - These molecules are eventually converted into glucose, which the plant uses for energy and growth.  \n\n**Importance**:  \n- Produces oxygen, essential for most life forms.  \n- Forms the foundation of the food chain by creating organic compounds.  \n- Helps regulate Earth's atmosphere and climate.",
+  "prompt_tokens": 72,
+  "completion_tokens": 680,
+  "latency_ms": 18083.263874053955,
+  "timestamp": "2026-04-13T00:07:49"
+}

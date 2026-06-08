@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "- Photosynthesis is the process by which plants, algae, and cyanobacteria convert light energy into chemical energy, making sugars from carbon dioxide and water and releasing oxygen.\n- Where it happens: in chloroplasts (thylakoid membranes and stroma) using pigments like chlorophyll to absorb light.\n- Two main stages:\n  - Light-dependent reactions: light energizes electrons; water is split to release oxygen; ATP and NADPH are produced.\n  - Calvin cycle (light-independent): CO2 is fixed by the enzyme RuBisCO and, using ATP and NADPH, converted into sugars (via G3P); components are regenerated to continue the cycle.\n- Overall simplified equation: 6 CO2 + 6 H2O + light \u2192 C6H12O6 + 6 O2.\n- Variations (adaptations): C3, C4, and CAM pathways help plants manage hot or dry conditions and reduce photorespiration.\n- Why it matters: it underpins food webs, provides most of Earth\u2019s oxygen, and removes CO2 from the atmosphere.",
+  "prompt_tokens": 67,
+  "completion_tokens": 934,
+  "latency_ms": 13017.964124679565,
+  "timestamp": "2026-04-12T19:56:56"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the context:\n\n- Additive (light, screens): red, green, blue (RGB)\n- Subtractive (printing, modern color theory): cyan, magenta, yellow (CMY; CMYK adds black)\n- Traditional art/painting: red, yellow, blue (RYB)",
+  "prompt_tokens": 72,
+  "completion_tokens": 392,
+  "latency_ms": 5454.449892044067,
+  "timestamp": "2026-04-12T20:01:49"
+}

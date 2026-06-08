@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Earthquakes are primarily caused by the sudden release of energy in the Earth's crust, which generates seismic waves. This energy release occurs due to **tectonic plate movements**, as the Earth's lithosphere is divided into massive plates that float on the semi-fluid asthenosphere. When these plates interact at their boundaries (e.g., colliding, sliding past, or pulling apart), stress builds up over time. When the stress exceeds the strength of rocks, it causes a sudden fracture or shift along faults, releasing energy in the form of seismic waves that shake the ground.\n\n**Other causes include:**\n1. **Volcanic activity**: Magma movement beneath the surface can trigger tremors.\n2. **Human activities**: Reservoir-induced seismicity (e.g., large dams), mining, fracking, and fluid injection can induce earthquakes.\n3. **Landslides or collapsing structures**: These can also generate localized seismic events.\n\nMost earthquakes are natural, but human-induced events are becoming more common due to industrial activities. The **magnitude** of an earthquake depends on the amount of energy released, which is related to the size of the fault and the stress involved.",
+  "prompt_tokens": 60,
+  "completion_tokens": 535,
+  "latency_ms": 13495.616912841797,
+  "timestamp": "2026-04-13T07:06:00"
+}

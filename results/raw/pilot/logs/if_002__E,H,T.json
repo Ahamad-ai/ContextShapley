@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__E,H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria use light energy to convert carbon dioxide and water into sugars (chemical energy), releasing oxygen as a byproduct.\n\n- Where it occurs: In plants and algae, it happens inside chloroplasts; light is captured in the thylakoid membranes, and sugar is synthesized in the stroma.\n- Two main stages:\n  - Light-dependent reactions: Light energy is used to split water, releasing oxygen and producing ATP and NADPH.\n  - Calvin cycle (light-independent reactions): ATP and NADPH drive the fixation of CO2 into carbohydrates like glucose.\n- Overall reaction (simplified): 6 CO2 + 6 H2O + light energy \u2192 C6H12O6 + 6 O2.\n- Why it matters: It forms the base of most food webs, provides the Earth\u2019s oxygen, and removes CO2 from the atmosphere, helping regulate climate.\n- Factors affecting rate: Light intensity and wavelength, CO2 concentration, temperature, water availability, and nutrient/chlorophyll levels.",
+  "prompt_tokens": 151,
+  "completion_tokens": 738,
+  "latency_ms": 11121.49715423584,
+  "timestamp": "2026-04-12T19:38:35"
+}

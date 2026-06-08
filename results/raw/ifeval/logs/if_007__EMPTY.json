@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Most earthquakes happen because the outer shell of Earth (the lithosphere) is broken into tectonic plates that are slowly moving. Where plates meet or where old faults cut the crust, friction can lock the rocks together. As the plates keep trying to move, stress builds up in the rocks. When the stress exceeds the fault\u2019s strength (often lowered by high fluid pressure in the rocks), the fault suddenly slips. The stored elastic energy is released as seismic waves\u2014what we feel as shaking. This is called elastic rebound.\n\nKey settings and processes:\n- Transform boundaries: Plates slide past each other (e.g., San Andreas). These produce shallow, often large, strike\u2011slip earthquakes.\n- Convergent boundaries: One plate dives beneath another (subduction) or continents collide. Subduction \u201cmegathrust\u201d quakes are the largest on Earth (up to magnitude 9+). The sinking slab can also host intermediate and deep quakes (down to ~700 km) due to mineral phase changes and dehydration that make the rock brittle at depth.\n- Divergent boundaries: Plates pull apart (mid\u2011ocean ridges, rifts). Normal\u2011fault earthquakes are typically moderate and shallow.\n- Intraplate regions: Even far from plate edges, ancient faults can be reactivated by stresses transmitted through the plate, by changes in surface load (e.g., post\u2011glacial rebound), or by local crustal forces.\n\nOther causes:\n- Volcanic/tectono\u2011magmatic activity: Movement of magma, dyke intrusion, and caldera collapse can fracture rock and produce swarms of small to moderate quakes.\n- Human\u2011induced (induced seismicity): Changing subsurface pressures can trigger faults. Examples include:\n  - Injection or withdrawal of fluids (wastewater disposal, some hydraulic fracturing, geothermal operations)\n  - Filling large reservoirs behind dams (reservoir\u2011induced seismicity)\n  - Mining and hydrocarbon extraction\n  These are usually small but can occasionally reach damaging sizes.\n- Landslides, mine collapses, and explosions can generate seismic signals but are typically much smaller and more localized.\n\nAfter a fault ruptures, the sudden change in stress around it often triggers aftershocks as surrounding faults and patches adjust. The size of an earthquake mainly reflects how big an area slipped and by how much; the shaking felt at a location also depends on depth, distance, and local ground conditions.",
+  "prompt_tokens": 13,
+  "completion_tokens": 1462,
+  "latency_ms": 15912.871837615967,
+  "timestamp": "2026-04-12T20:19:14"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__D,E,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes are primarily caused by the sudden release of energy from the Earth's crust due to tectonic plates shifting, colliding, or sliding past each other. This movement creates seismic waves that shake the ground, often along fault lines where stress has built up over time. Other factors, such as volcanic activity or human-induced events like reservoir filling or underground mining, can also trigger smaller earthquakes.",
+  "prompt_tokens": 188,
+  "completion_tokens": 297,
+  "latency_ms": 7814.736127853394,
+  "timestamp": "2026-04-13T07:10:11"
+}

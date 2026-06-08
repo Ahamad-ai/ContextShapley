@@ -1,0 +1,19 @@
+{
+  "call_id": "if_012__E,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly 3 sentences. Each sentence must contain the word 'blue'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is the color of the clear sky and calm oceans, evoking feelings of peace. Blue is a versatile hue in art, symbolizing trust and stability in design schemes. Blue is often linked to calmness, yet it can also represent mystery, as seen in the deep blue of the night.",
+  "prompt_tokens": 120,
+  "completion_tokens": 270,
+  "latency_ms": 7748.970985412598,
+  "timestamp": "2026-04-13T07:37:38"
+}

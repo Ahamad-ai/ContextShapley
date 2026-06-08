@@ -1,0 +1,19 @@
+{
+  "call_id": "if_013__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with only the number. No words, no punctuation, just the number."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat is 15 + 27?"
+    }
+  ],
+  "response_text": "42",
+  "prompt_tokens": 44,
+  "completion_tokens": 143,
+  "latency_ms": 4345.50404548645,
+  "timestamp": "2026-04-13T07:40:27"
+}

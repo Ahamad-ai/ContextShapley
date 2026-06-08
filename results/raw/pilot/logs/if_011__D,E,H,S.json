@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__D,E,H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- General scripting and automation (glue code, file processing, task runners)\n- Data analysis and visualization (NumPy, pandas, Matplotlib, Seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Web development and APIs (Django, Flask, FastAPI)\n- Scientific computing and research (SciPy, Jupyter notebooks)\n- DevOps and infrastructure automation (Ansible, CI/CD scripts)\n- Testing and QA (unittest, pytest)\n- Web scraping and data collection (Requests, Beautiful Soup, Scrapy)\n- Desktop GUI applications (Tkinter, PyQt, Kivy)\n- Game and multimedia prototyping (Pygame)\n- Networking and cybersecurity tooling\n- IoT and embedded development (MicroPython, CircuitPython)\n- Finance/quant research and algorithmic trading\n- Data engineering and ETL/workflows (Airflow, Luigi)\n- Cloud and serverless functions (AWS Lambda, GCP Cloud Functions)\n- Geospatial/GIS analysis (GeoPandas, Shapely)\n\nIt\u2019s popular for its readability, large ecosystem of libraries, and cross-platform support. Is there anything else you need?",
+  "prompt_tokens": 185,
+  "completion_tokens": 1145,
+  "latency_ms": 17010.14995574951,
+  "timestamp": "2026-04-12T19:33:28"
+}

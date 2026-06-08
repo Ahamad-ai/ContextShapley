@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Enhances cardiovascular health by strengthening the heart and improving circulation.  \n- Reduces stress and anxiety while boosting mood through endorphin release.  \n- Supports weight management by increasing calorie expenditure and building muscle.",
+  "prompt_tokens": 70,
+  "completion_tokens": 166,
+  "latency_ms": 4286.03196144104,
+  "timestamp": "2026-04-13T00:04:50"
+}

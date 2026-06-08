@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a738fe855429908901be2fb__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"What film was written and directed by Joby Harold with music written by Samuel Sim?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Awake.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWhat film was written and directed by Joby Harold with music written by Samuel Sim?"
+    }
+  ],
+  "response_text": "Awake (2007).",
+  "prompt_tokens": 92,
+  "completion_tokens": 656,
+  "latency_ms": 7886.490821838379,
+  "timestamp": "2026-04-12T21:21:55"
+}

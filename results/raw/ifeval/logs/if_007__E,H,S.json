@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__E,H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes are primarily caused by the sudden release of built-up stress along faults in the Earth\u2019s crust due to tectonic plate motions, where rocks deform elastically until they rupture and release energy as seismic waves; this process (elastic rebound) is most common at plate boundaries such as subduction zones (megathrust), transform faults (strike-slip), and mid-ocean ridges (normal faulting), but it can also occur within plates when old faults are reactivated. Volcanic and magmatic activity can trigger earthquakes, and non-tectonic processes like isostatic rebound or large landslides can produce smaller events. Human activities, including deep fluid injection and withdrawal (for wastewater disposal or geothermal operations), reservoir impoundment, mining, and occasionally hydraulic fracturing, can also induce seismicity.",
+  "prompt_tokens": 138,
+  "completion_tokens": 688,
+  "latency_ms": 9700.933933258057,
+  "timestamp": "2026-04-12T20:22:36"
+}

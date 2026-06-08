@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__D,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "- Definition: Machine learning is a subfield of artificial intelligence where computers learn patterns from data to make predictions, decisions, or generate content without being explicitly programmed for each specific task.\n\n- Core idea (how it works):\n  - Collect data relevant to a task.\n  - Choose a model family (e.g., linear models, decision trees, neural networks).\n  - Define an objective (loss) that measures errors.\n  - Train by adjusting model parameters to minimize the loss on training data.\n  - Validate on unseen data to check generalization; then deploy and monitor.\n\n- Main types:\n  - Supervised learning: Learn from labeled examples (e.g., classify emails as spam/not spam, predict prices).\n  - Unsupervised learning: Find structure in unlabeled data (e.g., clustering customers, reducing dimensionality).\n  - Self-/semi-supervised learning: Leverage large unlabeled data with limited labels or pretext tasks.\n  - Reinforcement learning: Learn actions by trial and error to maximize rewards (e.g., game playing, robotics).\n  - Online/continual learning: Update models incrementally as new data arrives.\n\n- Common algorithms: Linear/logistic regression, k-nearest neighbors, decision trees and random forests, support vector machines, gradient boosting, neural networks/deep learning.\n\n- Applications: Recommendation systems, speech and image recognition, machine translation, fraud detection, medical diagnosis support, forecasting, autonomous vehicles, chatbots and content generation.\n\n- Strengths and limitations:\n  - Strengths: Can handle complex patterns at scale and often outperform hand-coded rules.\n  - Limitations: Require quality data and compute; can overfit, be biased, or be hard to interpret; performance can degrade if real-world data shifts from training data.\n\nIn short, machine learning is about building systems that improve their performance on a task by learning from data rather than relying solely on fixed, manually crafted rules.",
+  "prompt_tokens": 100,
+  "completion_tokens": 845,
+  "latency_ms": 13283.942937850952,
+  "timestamp": "2026-04-12T20:14:32"
+}

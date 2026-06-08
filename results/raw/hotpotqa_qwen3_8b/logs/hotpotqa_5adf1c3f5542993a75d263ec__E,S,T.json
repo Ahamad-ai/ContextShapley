@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adf1c3f5542993a75d263ec__E,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\nQ: What was Iqbal F. Qadir on when he participated in an attack on a radar station located on western shore of the Okhamandal Peninsula?\nA: flotilla\n\nQ: What is the shared country of ancestry between Art Laboe and Scout Tufankjian?\nA: Armenian\n\n## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"In which six Western European territories have Celtic languages or cultural traits survived?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales..\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nIn which six Western European territories have Celtic languages or cultural traits survived?"
+    }
+  ],
+  "response_text": "Brittany, Cornwall, Ireland, Isle of Man, Scotland, Wales",
+  "prompt_tokens": 234,
+  "completion_tokens": 193,
+  "latency_ms": 18373.958826065063,
+  "timestamp": "2026-04-13T08:58:03"
+}

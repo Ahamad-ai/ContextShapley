@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,E,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and cyanobacteria use light energy to convert carbon dioxide and water into sugars, releasing oxygen as a byproduct. In chloroplasts, pigments like chlorophyll absorb sunlight. The light-dependent reactions in the thylakoid membranes split water to produce oxygen and generate energy carriers (ATP and NADPH). The Calvin cycle in the stroma uses those carriers to fix CO2 into glucose and other carbohydrates. Overall: 6 CO2 + 6 H2O + light energy \u2192 C6H12O6 + 6 O2. This process underpins most food webs and supplies much of Earth\u2019s oxygen while removing CO2 from the atmosphere.",
+  "prompt_tokens": 166,
+  "completion_tokens": 600,
+  "latency_ms": 8963.11330795288,
+  "timestamp": "2026-04-12T20:00:13"
+}

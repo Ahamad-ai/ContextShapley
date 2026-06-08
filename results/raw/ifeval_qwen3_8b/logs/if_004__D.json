@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle, also known as the hydrological cycle, is the continuous movement of water on, above, and below the surface of the Earth. Here's a concise description:\n\n- **Evaporation**: Water from oceans, lakes, rivers, and other bodies heats up by the sun, turning into water vapor (gas) and rising into the atmosphere.  \n- **Transpiration**: Plants release water vapor into the air through their leaves, contributing to atmospheric moisture.  \n- **Condensation**: Water vapor cools and condenses into tiny droplets, forming clouds.  \n- **Precipitation**: Condensed water falls as rain, snow, sleet, or hail, returning to Earth's surface.  \n- **Collection**: Water gathers in rivers, lakes, oceans, or infiltrates the ground (groundwater), restarting the cycle.  \n\nThis process is driven by solar energy and gravity, ensuring the distribution of water across the planet.",
+  "prompt_tokens": 75,
+  "completion_tokens": 556,
+  "latency_ms": 14486.70482635498,
+  "timestamp": "2026-04-13T00:21:33"
+}

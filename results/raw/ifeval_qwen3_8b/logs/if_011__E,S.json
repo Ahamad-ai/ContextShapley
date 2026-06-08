@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is used for web development, data analysis, machine learning, automation, and scripting. It's also popular in scientific computing and artificial intelligence.  \nIs there anything else you need?",
+  "prompt_tokens": 99,
+  "completion_tokens": 315,
+  "latency_ms": 9904.959917068481,
+  "timestamp": "2026-04-13T07:26:07"
+}

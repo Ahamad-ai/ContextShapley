@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health by strengthening the heart and enhancing circulation.  \n- Reduces stress and anxiety while boosting mood through the release of endorphins.  \n- Enhances muscle strength, flexibility, and overall physical endurance.",
+  "prompt_tokens": 41,
+  "completion_tokens": 208,
+  "latency_ms": 5328.826189041138,
+  "timestamp": "2026-04-13T00:04:03"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_006__D,E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "1. Germany  \n2. France  \n3. Italy  \n4. Spain  \n5. United Kingdom",
+  "prompt_tokens": 136,
+  "completion_tokens": 201,
+  "latency_ms": 1889483.5920333862,
+  "timestamp": "2026-04-13T02:13:54"
+}

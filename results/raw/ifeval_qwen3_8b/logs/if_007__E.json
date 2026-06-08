@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Earthquakes are primarily caused by the movement of tectonic plates, which build up stress along fault lines and release energy as seismic waves.  \n- Other causes include volcanic activity, human-induced factors like mining or reservoirs, and landslides.",
+  "prompt_tokens": 82,
+  "completion_tokens": 370,
+  "latency_ms": 9497.35689163208,
+  "timestamp": "2026-04-13T07:05:35"
+}

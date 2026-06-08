@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,H,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants convert light energy into chemical energy using carbon dioxide and water. This reaction produces glucose and oxygen, providing energy for the plant and releasing oxygen into the atmosphere.",
+  "prompt_tokens": 140,
+  "completion_tokens": 202,
+  "latency_ms": 6739.902019500732,
+  "timestamp": "2026-04-13T00:11:32"
+}

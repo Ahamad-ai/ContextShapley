@@ -1,0 +1,19 @@
+{
+  "call_id": "if_014__D,E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use the word 'data' at least 3 times in your response. Keep it under 60 words."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nExplain what a database is."
+    }
+  ],
+  "response_text": "A database is a structured storage system for data. It allows efficient retrieval and management of data. It ensures data consistency, security, and scalability.",
+  "prompt_tokens": 170,
+  "completion_tokens": 267,
+  "latency_ms": 7169.421195983887,
+  "timestamp": "2026-04-13T07:46:51"
+}

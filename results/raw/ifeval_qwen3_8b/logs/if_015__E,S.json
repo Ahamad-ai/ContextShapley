@@ -1,0 +1,19 @@
+{
+  "call_id": "if_015__E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in Q&A format: restate the question, then answer. Use exactly 2 sentences for the answer."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nWhy is the sky blue?"
+    }
+  ],
+  "response_text": "Q: Why is the sky blue?  \nA: The sky appears blue due to Rayleigh scattering, which scatters shorter wavelengths of light, like blue, more effectively. Our eyes are more sensitive to blue light, making the sky seem blue during the day.",
+  "prompt_tokens": 107,
+  "completion_tokens": 154,
+  "latency_ms": 4907.603025436401,
+  "timestamp": "2026-04-13T07:50:56"
+}

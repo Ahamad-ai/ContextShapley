@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__D,E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is a general-purpose programming language used for:\n\n- Web and API development (Django, Flask, FastAPI)\n- Data analysis and visualization (pandas, NumPy, Matplotlib, seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting (system admin tasks, CI/CD, Ansible)\n- Scientific computing and research (SciPy, Jupyter)\n- Data engineering and ETL pipelines (Airflow, Luigi, PySpark)\n- Web scraping and crawling (Requests, BeautifulSoup, Scrapy)\n- Testing and QA (pytest, unittest)\n- Desktop applications and GUIs (Tkinter, PyQt, Kivy)\n- Game development and multimedia (Pygame)\n- Embedded/IoT (MicroPython, CircuitPython)\n- Cybersecurity and networking (Scapy, automation tools)\n- Finance/quant and trading (backtesting, risk modeling)\n- Cloud and serverless functions (AWS Lambda, GCP Cloud Functions)\n- Education and beginners\u2019 programming due to its readability and large ecosystem",
+  "prompt_tokens": 153,
+  "completion_tokens": 866,
+  "latency_ms": 9867.14482307434,
+  "timestamp": "2026-04-12T19:32:51"
+}

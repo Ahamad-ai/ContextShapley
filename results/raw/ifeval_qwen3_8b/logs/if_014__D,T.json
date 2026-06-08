@@ -1,0 +1,15 @@
+{
+  "call_id": "if_014__D,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what a database is."
+    }
+  ],
+  "response_text": "A **database** is an organized collection of structured data stored and managed electronically. It allows efficient storage, retrieval, and manipulation of information through a system called a **Database Management System (DBMS)**. Databases are designed to ensure data integrity, security, and accessibility, supporting applications like websites, business systems, and scientific research. Common types include **relational databases** (e.g., MySQL, PostgreSQL) and **NoSQL databases** (e.g., MongoDB), which cater to different data structures and use cases.",
+  "prompt_tokens": 106,
+  "completion_tokens": 758,
+  "latency_ms": 19066.95604324341,
+  "timestamp": "2026-04-13T07:46:33"
+}

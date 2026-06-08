@@ -1,0 +1,15 @@
+{
+  "call_id": "if_010__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList the planets in our solar system."
+    }
+  ],
+  "response_text": "- Mercury\n- Venus\n- Earth\n- Mars\n- Jupiter\n- Saturn\n- Uranus\n- Neptune",
+  "prompt_tokens": 46,
+  "completion_tokens": 226,
+  "latency_ms": 4547.42693901062,
+  "timestamp": "2026-04-12T20:34:36"
+}

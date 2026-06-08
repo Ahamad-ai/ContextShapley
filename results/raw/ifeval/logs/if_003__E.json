@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the system: for light (additive), the primary colors are red, green, and blue. For pigments (subtractive), the modern primaries are cyan, magenta, and yellow (printing adds black), while traditional art often teaches red, yellow, and blue.",
+  "prompt_tokens": 80,
+  "completion_tokens": 644,
+  "latency_ms": 10497.849941253662,
+  "timestamp": "2026-04-12T20:01:44"
+}

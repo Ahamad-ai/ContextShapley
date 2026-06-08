@@ -1,0 +1,15 @@
+{
+  "call_id": "if_008__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is an invisible pull that makes things attract each other. Earth is very big, so its pull is strong and keeps your feet on the ground and makes dropped things fall. When you jump, gravity pulls you back down. The bigger and closer something is, the stronger its pull. Gravity is why the Moon goes around Earth and the planets go around the Sun. Astronauts look like they\u2019re floating because they and their spaceship are falling together, even though gravity is still there.",
+  "prompt_tokens": 109,
+  "completion_tokens": 683,
+  "latency_ms": 7692.130088806152,
+  "timestamp": "2026-04-12T20:28:07"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "- The water cycle (hydrologic cycle) is the continuous movement of water among the ocean, atmosphere, land, and living things, driven by solar energy and gravity.\n- Evaporation and transpiration (evapotranspiration): liquid water from oceans, lakes, soils, and plant leaves becomes water vapor.\n- Sublimation: solid water (ice, snow) turns directly into vapor in cold, dry, or windy conditions.\n- Advection: winds transport water vapor and clouds horizontally across regions.\n- Condensation: water vapor cools and forms tiny droplets or ice crystals on aerosols, creating clouds and fog.\n- Precipitation: droplets or crystals grow and fall as rain, snow, sleet, or hail when they become heavy enough.\n- Interception: some precipitation is caught by vegetation or buildings and may evaporate back to the atmosphere.\n- Infiltration and percolation: water soaks into the ground and moves downward through soil and rock, recharging aquifers.\n- Runoff and streamflow: water that doesn\u2019t infiltrate flows over land into streams, rivers, lakes, and eventually the ocean.\n- Groundwater flow: water moves slowly through aquifers and can emerge as springs, sustaining streamflow during dry periods.\n- Storage: water resides temporarily in reservoirs such as the atmosphere, soil, glaciers and snowpack, lakes, rivers, groundwater, and oceans; residence times range from minutes (atmosphere) to millennia (deep groundwater and ice).\n- Energy exchange: evaporation absorbs heat and cools surfaces; condensation releases heat in the atmosphere, influencing weather and climate.\n- Human influences: urbanization and deforestation alter infiltration and runoff; dams and pumping change storage and flows; climate change shifts evaporation and precipitation patterns.\n- Overall, the cycle recirculates Earth\u2019s freshwater, shapes landscapes, and transports energy and dissolved materials, maintaining life and climate.",
+  "prompt_tokens": 108,
+  "completion_tokens": 1611,
+  "latency_ms": 19973.9191532135,
+  "timestamp": "2026-04-12T20:09:02"
+}

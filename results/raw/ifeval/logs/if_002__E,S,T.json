@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria use light energy to convert carbon dioxide and water into sugars that store chemical energy. It proceeds in chloroplasts (or analogous membranes in bacteria) via light-dependent reactions that generate ATP and NADPH and a carbon-fixing Calvin cycle, releasing oxygen as a byproduct in oxygenic forms.",
+  "prompt_tokens": 115,
+  "completion_tokens": 722,
+  "latency_ms": 8899.765968322754,
+  "timestamp": "2026-04-12T19:59:42"
+}

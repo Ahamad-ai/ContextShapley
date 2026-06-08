@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__E,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "- The water cycle is the continuous movement of water among the ocean, atmosphere, land, and living things, driven by solar energy and gravity.\n- Sunlight causes evaporation from oceans, lakes, and soils; plants release water vapor through transpiration (together: evapotranspiration); in cold regions, ice and snow can sublimate directly to vapor.\n- Water vapor rises, cools, and condenses onto tiny particles to form cloud droplets or ice crystals; winds (advection) transport this moisture.\n- When droplets or crystals grow large enough, they fall as precipitation\u2014rain, snow, sleet, or hail\u2014depending on temperature conditions.\n- Some precipitation is intercepted by vegetation and evaporates; some infiltrates into soil, where it is stored, taken up by roots, or moves laterally as throughflow.\n- Infiltrated water percolates to recharge aquifers and feeds streams as baseflow; excess water flows overland as runoff into rivers, lakes, and eventually the ocean.\n- Water is stored along the way in oceans, glaciers/snowpack, lakes, soils, aquifers, and the atmosphere, with residence times ranging from minutes (atmosphere) to millennia (deep groundwater, ice).\n- The cycle\u2019s pathways and timing are shaped by climate, topography, and human activities (e.g., urbanization, deforestation, dams, groundwater pumping), which alter evaporation, infiltration, and runoff patterns.",
+  "prompt_tokens": 121,
+  "completion_tokens": 1200,
+  "latency_ms": 15403.777837753296,
+  "timestamp": "2026-04-12T20:08:42"
+}

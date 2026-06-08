@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water among the ocean, atmosphere, land, and living things, driven by solar energy and gravity. \n2. Sunlight causes evaporation from oceans, lakes, and soils, and plants release water vapor through transpiration, together called evapotranspiration. \n3. As moist air rises and cools, water vapor condenses on aerosols to form clouds and fog, and winds transport these moisture-laden air masses. \n4. When droplets or ice crystals grow large enough, precipitation falls as rain, snow, sleet, or hail, with some stored as snowpack or glaciers or returning to vapor by sublimation. \n5. On land, water infiltrates and percolates to recharge groundwater and springs, flows as surface runoff into streams and rivers, and ultimately returns to the ocean, pausing in temporary reservoirs like lakes, soils, aquifers, and the cryosphere.",
+  "prompt_tokens": 113,
+  "completion_tokens": 583,
+  "latency_ms": 8441.879987716675,
+  "timestamp": "2026-04-12T20:10:40"
+}

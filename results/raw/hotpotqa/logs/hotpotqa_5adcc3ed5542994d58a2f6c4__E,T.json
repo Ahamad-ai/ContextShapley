@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5adcc3ed5542994d58a2f6c4__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Phillip Pullman's book set in a parallel universe featuring a character named Lyra Belacqua was put into audio in what year?\nA: 2002\n\nQ: Which port city lies approximately 25 km north of the Lingnan Fine Arts Museum?\nA: Keelung\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\n## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"What group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: the \"First Family of Competitive Eating\".\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWhat group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?"
+    }
+  ],
+  "response_text": "The First Family of Competitive Eating.",
+  "prompt_tokens": 198,
+  "completion_tokens": 1617,
+  "latency_ms": 13008.851051330566,
+  "timestamp": "2026-04-12T21:28:02"
+}

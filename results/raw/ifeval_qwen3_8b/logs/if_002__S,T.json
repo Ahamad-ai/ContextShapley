@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants convert light energy into chemical energy using chlorophyll. This process transforms carbon dioxide and water into glucose and oxygen as byproducts.",
+  "prompt_tokens": 69,
+  "completion_tokens": 194,
+  "latency_ms": 5896.224021911621,
+  "timestamp": "2026-04-13T00:09:23"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria use light to convert carbon dioxide and water into energy-rich sugars, releasing oxygen as a byproduct. It proceeds through light-dependent reactions, where chlorophyll captures photons to generate ATP and NADPH and split water, followed by the Calvin cycle that uses those molecules to fix carbon into carbohydrates.",
+  "prompt_tokens": 91,
+  "completion_tokens": 465,
+  "latency_ms": 7413.70701789856,
+  "timestamp": "2026-04-12T19:57:53"
+}

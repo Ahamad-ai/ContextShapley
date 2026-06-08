@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__D,E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water between Earth's surface and atmosphere driven by solar energy and gravity. \n2. Heat from the sun causes evaporation from oceans, lakes, and soils and transpiration from plants, sending water vapor into the air. \n3. As moist air rises and cools, the vapor condenses onto particles to form clouds, and winds can transport this moisture across regions. \n4. When droplets or ice crystals grow large enough, water returns to the surface as precipitation such as rain, snow, or hail. \n5. Precipitated water infiltrates into soils to recharge groundwater, runs off into rivers and back to the oceans, or is stored in ice and lakes until it evaporates again, completing the cycle.",
+  "prompt_tokens": 193,
+  "completion_tokens": 610,
+  "latency_ms": 8597.152948379517,
+  "timestamp": "2026-04-12T20:11:40"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water driven mainly by solar energy and gravity, shifting water between the ocean, atmosphere, land, and living things. \n2. Sunlight causes evaporation from oceans, lakes, and soils and transpiration from plants (together called evapotranspiration), lifting water vapor into the air. \n3. As moist air rises and cools, water vapor condenses onto tiny particles to form clouds and eventually droplets or ice crystals large enough to fall as precipitation (rain, snow, sleet, or hail). \n4. Precipitated water infiltrates into the ground to recharge soil moisture and aquifers, or flows as surface runoff into streams and rivers that return water to lakes and oceans. \n5. Groundwater slowly moves through porous rock and can resurface as springs or seep into surface waters, and along with ongoing evaporation, this closes the cycle while also transporting heat, nutrients, and pollutants.",
+  "prompt_tokens": 42,
+  "completion_tokens": 585,
+  "latency_ms": 9255.677223205566,
+  "timestamp": "2026-04-12T20:06:32"
+}

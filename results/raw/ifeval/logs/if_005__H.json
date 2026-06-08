@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "Machine learning is a branch of artificial intelligence where computers learn patterns from data to make predictions or decisions without being explicitly programmed with rules. Instead of hand-coding logic, you provide examples; the system fits a model that generalizes to new, unseen cases.\n\nKey points:\n- How it works: collect data \u2192 define a model \u2192 choose a loss (objective) \u2192 train via optimization (e.g., gradient descent) \u2192 validate and test \u2192 deploy and monitor.\n- Main types:\n  - Supervised learning: learn from labeled examples (e.g., classify emails as spam/not spam, predict house prices).\n  - Unsupervised learning: find structure in unlabeled data (e.g., clustering customers, dimensionality reduction).\n  - Semi/self-supervised learning: leverage large unlabeled data with limited labels or proxy tasks for representations.\n  - Reinforcement learning: learn actions via trial and error to maximize reward (e.g., game-playing, robotics control).\n- Typical models: linear/logistic regression, decision trees and random forests, support vector machines, neural networks.\n- Applications: recommendation systems, speech and image recognition, fraud detection, medical diagnosis, forecasting.\n- Limitations: needs quality data, can reflect bias, may overfit, can be hard to interpret, sensitive to distribution shifts, and can be computationally intensive.",
+  "prompt_tokens": 56,
+  "completion_tokens": 597,
+  "latency_ms": 9287.012100219727,
+  "timestamp": "2026-04-12T20:12:57"
+}

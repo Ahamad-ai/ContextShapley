@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria use light energy to convert carbon dioxide and water into glucose and oxygen, storing energy in chemical bonds. It occurs in chloroplasts where chlorophyll drives light-dependent reactions that produce ATP and NADPH, which then power the Calvin cycle to fix CO2 into sugars.",
+  "prompt_tokens": 34,
+  "completion_tokens": 397,
+  "latency_ms": 6381.083011627197,
+  "timestamp": "2026-04-12T19:56:43"
+}

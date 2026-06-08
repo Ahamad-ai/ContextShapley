@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__D,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "{\n  \"definition\": \"Machine learning is a subset of artificial intelligence that enables systems to automatically learn patterns from data, improve accuracy over time, and make decisions with minimal human intervention through algorithms.\"\n}",
+  "prompt_tokens": 104,
+  "completion_tokens": 315,
+  "latency_ms": 8957.381010055542,
+  "timestamp": "2026-04-13T00:28:21"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_003__H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in valid JSON format with a key called 'answer'."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "{\"answer\":\"It depends on the system: additive (light/screens) \u2014 red, green, blue (RGB); subtractive (printing/ink) \u2014 cyan, magenta, yellow (CMY, often with black K); traditional art \u2014 red, yellow, blue (RYB).\"}",
+  "prompt_tokens": 102,
+  "completion_tokens": 517,
+  "latency_ms": 8598.56629371643,
+  "timestamp": "2026-04-12T20:04:26"
+}

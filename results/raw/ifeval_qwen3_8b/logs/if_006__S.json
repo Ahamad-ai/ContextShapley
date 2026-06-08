@@ -1,0 +1,19 @@
+{
+  "call_id": "if_006__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with a comma-separated list. Do not use periods."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "France, Germany, Italy, Spain, United Kingdom",
+  "prompt_tokens": 36,
+  "completion_tokens": 339,
+  "latency_ms": 8670.878887176514,
+  "timestamp": "2026-04-13T00:30:44"
+}

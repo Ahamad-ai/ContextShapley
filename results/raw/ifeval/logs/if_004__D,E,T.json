@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D,E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle is the continuous movement of water among the ocean, atmosphere, land, and living things, driven by solar energy and gravity. Sunlight causes evaporation from oceans, lakes, and soils, and transpiration from plants; ice and snow can also sublimate directly to vapor. As moist air rises, it cools and water vapor condenses onto particles to form clouds, which winds carry. When droplets or ice crystals grow large enough, precipitation falls as rain, snow, sleet, or hail. Some water runs off into streams and rivers, while some infiltrates the ground and percolates to recharge aquifers; it may be stored in soils, lakes, and glaciers. Water later returns to the atmosphere through evapotranspiration and flows back to the oceans, completing the cycle. These phase changes and pathways regulate how fast and where water moves, shaping weather, climate, and freshwater availability.",
+  "prompt_tokens": 165,
+  "completion_tokens": 961,
+  "latency_ms": 8282.955884933472,
+  "timestamp": "2026-04-12T20:10:58"
+}

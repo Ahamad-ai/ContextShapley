@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Most earthquakes happen when stress builds up in rocks and is released suddenly as they break and slip along faults. This is described by the elastic rebound theory: tectonic forces slowly deform the crust until the strength of the rock is exceeded, causing a rapid slip that sends out seismic waves.\n\nMain causes and settings:\n- Plate tectonics: Movement of Earth\u2019s lithospheric plates driven by slab pull, ridge push, and mantle flow loads faults with stress.\n  - Subduction zones: One plate dives beneath another, producing powerful megathrust earthquakes, often with intermediate and deep events within the sinking slab.\n  - Transform boundaries: Plates slide past each other along strike-slip faults, e.g., the San Andreas Fault.\n  - Divergent boundaries: Plates pull apart at mid-ocean ridges or rifts, causing normal faulting and typically smaller, shallow quakes.\n- Intraplate quakes: Stress within a plate can reactivate old faults far from boundaries due to lithospheric stresses, mantle dynamics, or loads from topography and sediments.\n- Volcanic and magmatic activity: Moving magma fractures rock, causing swarms of small to moderate earthquakes near volcanoes and rift zones.\n- Isostatic and glacial rebound: As ice sheets melt or loads change, the crust readjusts, sometimes triggering earthquakes.\n- Landslides and collapse: Sudden mass movements or collapse of underground cavities can produce local quakes.\n- Human-induced seismicity: Changes in subsurface stress or pore pressure from activities such as:\n  - Wastewater and geothermal fluid injection\n  - Reservoir impoundment behind large dams\n  - Mining and hydrocarbon extraction\n  - Occasionally hydraulic fracturing itself, though large events are more often linked to wastewater disposal\n\nAfter a mainshock, stress redistribution commonly triggers aftershocks on and around the ruptured fault.",
+  "prompt_tokens": 84,
+  "completion_tokens": 1089,
+  "latency_ms": 12974.176168441772,
+  "timestamp": "2026-04-12T20:22:15"
+}

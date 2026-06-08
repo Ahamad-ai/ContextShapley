@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ae5ffbb5542996de7b71ad4__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nMicha\u00ebl Llodra of France, called \"the best volleyer on tour\", defeated Juan Mart\u00edn del Potro a professional of what nationality?"
+    }
+  ],
+  "response_text": "Argentine (Argentinian).",
+  "prompt_tokens": 39,
+  "completion_tokens": 209,
+  "latency_ms": 5509.15789604187,
+  "timestamp": "2026-04-12T21:30:21"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_006__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "- France\n- Germany\n- Spain\n- Italy\n- Sweden",
+  "prompt_tokens": 15,
+  "completion_tokens": 88,
+  "latency_ms": 2249.454975128174,
+  "timestamp": "2026-04-12T20:16:25"
+}

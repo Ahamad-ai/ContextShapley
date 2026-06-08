@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__E,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Tectonic plate movement along fault lines is the primary cause of earthquakes.  \n- Volcanic eruptions can also trigger seismic activity.  \n- Human activities such as mining and reservoir construction may induce earthquakes.",
+  "prompt_tokens": 111,
+  "completion_tokens": 848,
+  "latency_ms": 21956.87198638916,
+  "timestamp": "2026-04-13T07:07:39"
+}

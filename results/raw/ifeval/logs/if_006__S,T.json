@@ -1,0 +1,19 @@
+{
+  "call_id": "if_006__S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with a comma-separated list. Do not use periods."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "France, Germany, Italy, Spain, Poland",
+  "prompt_tokens": 60,
+  "completion_tokens": 211,
+  "latency_ms": 4152.076959609985,
+  "timestamp": "2026-04-12T20:17:09"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_009__T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "The capital of Japan is **Tokyo**.",
+  "prompt_tokens": 49,
+  "completion_tokens": 151,
+  "latency_ms": 4280.549049377441,
+  "timestamp": "2026-04-13T07:16:57"
+}

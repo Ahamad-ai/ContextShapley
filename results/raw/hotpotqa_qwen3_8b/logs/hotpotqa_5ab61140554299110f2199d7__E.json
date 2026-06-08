@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ab61140554299110f2199d7__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Who is the fictional head of a British Secret Service division and for which a one-time missionary was the inspiration for?\nA: Q\n\nQ: What was Iqbal F. Qadir on when he participated in an attack on a radar station located on western shore of the Okhamandal Peninsula?\nA: flotilla\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\n## Question\n\nWho is known for composing  American Beauty: Original Motion Picture Score and many other film scores?"
+    }
+  ],
+  "response_text": "A: Thomas Newman",
+  "prompt_tokens": 131,
+  "completion_tokens": 373,
+  "latency_ms": 76214.3189907074,
+  "timestamp": "2026-04-13T09:09:30"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__D,E,H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Most earthquakes are caused by sudden slip on faults when tectonic stresses overcome friction. This rapid release of stored elastic strain energy (elastic rebound) sends seismic waves through the Earth.\n- Plate boundaries concentrate most earthquakes:\n  - Transform boundaries (plates slide past each other) produce frequent shallow quakes.\n  - Convergent/subduction zones (one plate dives beneath another) generate the largest earthquakes and tsunamis (megathrust events).\n  - Divergent boundaries (plates pull apart) create quakes along mid-ocean ridges and rift zones.\n- Intraplate earthquakes occur within a plate when ancient faults are reactivated by far\u2011field stresses or lithospheric flexure.\n- Deep-focus earthquakes (to ~700 km depth) happen inside subducting slabs due to deformation and mineral phase changes as the slab descends.\n- Volcanic/tectono-volcanic earthquakes arise from magma and fluid movement fracturing rock, often as swarms around volcanoes.\n- Human-induced seismicity can be triggered by changing stresses and pore pressures, including wastewater or geothermal fluid injection, hydrocarbon extraction, large reservoirs (impoundment), mining, and underground explosions.\n- Collapse and landslide-related quakes are small, shallow events from mine or cavern roof failures and mass movements.\n- Aftershocks (and sometimes foreshocks) occur because a main rupture redistributes stress, loading nearby faults and segments.\n- Some faults also undergo slow-slip events and tremor that don\u2019t produce strong shaking but can load adjacent locked patches and influence earthquake timing.\n- The shaking felt at the surface comes from seismic waves (P and S waves and surface waves) radiating from the rupture.",
+  "prompt_tokens": 206,
+  "completion_tokens": 1183,
+  "latency_ms": 16522.696018218994,
+  "timestamp": "2026-04-12T20:24:42"
+}

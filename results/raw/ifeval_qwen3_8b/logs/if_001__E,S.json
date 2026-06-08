@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health  \n- Enhances mental well-being  \n- Increases energy levels and stamina",
+  "prompt_tokens": 106,
+  "completion_tokens": 140,
+  "latency_ms": 3807.098150253296,
+  "timestamp": "2026-04-13T00:04:36"
+}

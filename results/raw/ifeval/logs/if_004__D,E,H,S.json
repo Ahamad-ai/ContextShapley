@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__D,E,H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The Sun\u2019s energy heats liquid water in oceans, lakes, soils, and vegetation, causing evaporation and plant transpiration. \n2. The resulting water vapor rises, cools, and condenses onto tiny particles to form cloud droplets and ice crystals, a process called condensation. \n3. As droplets and crystals collide and grow, gravity pulls them down as precipitation such as rain, snow, sleet, or hail. \n4. Precipitation either infiltrates to recharge soil moisture and groundwater, accumulates as ice and snow, or flows as runoff into streams, rivers, and back to the ocean. \n5. Evaporation, transpiration, condensation, precipitation, infiltration, and runoff together create a continuous water cycle that redistributes water and heat, shapes weather and climate, and sustains ecosystems.",
+  "prompt_tokens": 206,
+  "completion_tokens": 623,
+  "latency_ms": 7679.948091506958,
+  "timestamp": "2026-04-12T20:11:32"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__E,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web development (e.g., building sites and APIs with Django or Flask)\n- Data analysis and scientific computing (NumPy, pandas, SciPy)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting (task automation, DevOps, system administration)\n- Data engineering and ETL workflows\n- Web scraping and crawling (Requests, BeautifulSoup, Scrapy)\n- Data visualization and dashboards (Matplotlib, Seaborn, Plotly, Dash)\n- Testing and QA (pytest, unit/integration testing, test automation)\n- Desktop application development (Tkinter, PyQt, Kivy)\n- Game and multimedia prototyping (pygame) and tooling\n- Cloud/serverless and microservices (AWS Lambda, Azure Functions, FastAPI)\n- Cybersecurity tooling and penetration testing automation\n- IoT and embedded systems (MicroPython, CircuitPython)\n- Financial modeling and quantitative research\n- General-purpose \u201cglue code\u201d to integrate systems and rapid prototyping\n\nIs there anything else you need?",
+  "prompt_tokens": 157,
+  "completion_tokens": 606,
+  "latency_ms": 9714.96295928955,
+  "timestamp": "2026-04-12T19:33:53"
+}

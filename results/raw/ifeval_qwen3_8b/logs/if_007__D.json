@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "**What Causes Earthquakes?**  \nEarthquakes are primarily caused by the sudden release of energy in the Earth's crust, creating seismic waves. Key factors include:  \n\n- **Tectonic Plate Movement**: The primary cause. Tectonic plates collide, slide past, or pull apart, building stress that releases as vibrations.  \n- **Volcanic Activity**: Magma movement beneath the surface can trigger earthquakes.  \n- **Human Activities**: Underground nuclear testing, reservoir-induced seismicity (from dams), and mining can induce smaller earthquakes.  \n- **Landslides and Other Geological Processes**: These can also generate localized seismic activity.  \n\nMost earthquakes (about 90%) result from tectonic plate interactions.",
+  "prompt_tokens": 74,
+  "completion_tokens": 478,
+  "latency_ms": 12298.599004745483,
+  "timestamp": "2026-04-13T07:05:47"
+}

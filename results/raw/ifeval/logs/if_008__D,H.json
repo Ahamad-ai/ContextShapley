@@ -1,0 +1,15 @@
+{
+  "call_id": "if_008__D,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is an invisible pulling force that keeps things together. Anything that has \u201cstuff\u201d (mass), even you and your toys, has a tiny pull. Big things, like Earth, have a strong pull.\n\n- When you drop a ball, gravity pulls it down to the ground.\n- When you jump, gravity brings you back so you don\u2019t float away.\n- You feel gravity as your \u201cweight.\u201d On a bigger planet you\u2019d feel heavier; on a smaller one you\u2019d feel lighter.\n- The Moon goes around the Earth, and the Earth goes around the Sun, because gravity keeps them from flying off straight into space.\n- Astronauts look like they\u2019re floating not because there\u2019s no gravity, but because they\u2019re moving so fast around Earth that they\u2019re always falling around it and keep missing the ground.\n\nYou can think of gravity like a gentle, constant hug from Earth that holds you close. Without it, raindrops wouldn\u2019t fall, trees couldn\u2019t grow straight, and we\u2019d all be drifting like balloons in the sky.",
+  "prompt_tokens": 114,
+  "completion_tokens": 733,
+  "latency_ms": 8976.293802261353,
+  "timestamp": "2026-04-12T20:28:16"
+}

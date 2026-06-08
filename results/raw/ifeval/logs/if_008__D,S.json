@@ -1,0 +1,19 @@
+{
+  "call_id": "if_008__D,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use only words with 3 or fewer syllables. Keep response under 40 words."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a pull. It holds you to the ground. Drop a ball; it falls. It keeps Earth around the sun and the moon around Earth. It gives weight. Without it, we would float.",
+  "prompt_tokens": 94,
+  "completion_tokens": 1140,
+  "latency_ms": 15629.098892211914,
+  "timestamp": "2026-04-12T20:27:09"
+}

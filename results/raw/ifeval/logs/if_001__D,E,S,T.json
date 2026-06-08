@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__D,E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health and lowers risk of heart disease, stroke, and type 2 diabetes\n- Enhances mental well-being by boosting mood, reducing stress and anxiety, and sharpening cognition\n- Supports weight management while strengthening muscles and bones, increasing energy, and improving sleep quality",
+  "prompt_tokens": 187,
+  "completion_tokens": 322,
+  "latency_ms": 5436.214208602905,
+  "timestamp": "2026-04-12T19:56:10"
+}

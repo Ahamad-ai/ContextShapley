@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Scripting and automation: writing quick scripts to process files, parse logs, call APIs, schedule jobs\n- Data analysis and visualization: using pandas, NumPy, Matplotlib, Seaborn, Jupyter for exploration and reporting\n- Machine learning and AI: building models with scikit-learn, TensorFlow, PyTorch, XGBoost\n- Web development and APIs: creating sites and services with Django, Flask, FastAPI\n- Scientific computing and research: numerical methods, simulations, notebooks (SciPy, SymPy, Jupyter)\n- DevOps and infrastructure: provisioning, CI/CD, and tooling (Ansible, Fabric, CLI utilities)\n- Data engineering and ETL: pipelines and orchestration (Airflow, Prefect), big data via PySpark/Dask\n- Web scraping and automation: gathering data with Requests, BeautifulSoup, Scrapy, Selenium/Playwright\n- Testing and QA: unit, integration, and property testing (unittest, pytest, hypothesis)\n- Desktop applications and GUIs: building cross-platform apps (Tkinter, PyQt, Kivy)\n- Game development and multimedia: simple games and prototypes (Pygame, Arcade)\n- Networking and concurrency: services and clients with asyncio, aiohttp, Twisted\n- Cybersecurity and networking: packet crafting/analysis and tooling (Scapy)\n- IoT and embedded: programming microcontrollers (MicroPython, CircuitPython)\n- Education and prototyping: teaching programming and quickly validating ideas\n\nWhy it\u2019s popular: clear, readable syntax; huge ecosystem of libraries; strong community; cross-platform; great tooling (virtual environments, package managers, notebooks).",
+  "prompt_tokens": 96,
+  "completion_tokens": 1112,
+  "latency_ms": 14816.622018814087,
+  "timestamp": "2026-04-12T19:30:19"
+}

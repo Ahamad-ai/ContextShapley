@@ -1,0 +1,15 @@
+{
+  "call_id": "if_012__E,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a primary color in the visible spectrum, often associated with the sky, oceans, and calmness. It ranges from light blue (like the sky) to dark blue (like midnight). Psychologically, blue is linked to feelings of tranquility, trust, and stability. It's also a common color in nature, such as in flowers and animals, and is widely used in design for its soothing effect.",
+  "prompt_tokens": 99,
+  "completion_tokens": 332,
+  "latency_ms": 9545.386791229248,
+  "timestamp": "2026-04-13T07:36:24"
+}

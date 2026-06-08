@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5adf1c3f5542993a75d263ec__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"In which six Western European territories have Celtic languages or cultural traits survived?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales..\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nIn which six Western European territories have Celtic languages or cultural traits survived?"
+    }
+  ],
+  "response_text": "- Ireland\n- Scotland\n- Wales\n- Cornwall (southwest England)\n- Isle of Man\n- Brittany (northwest France)\n\nThese are commonly known as the six Celtic nations, where Celtic languages and cultural traditions have persisted.",
+  "prompt_tokens": 99,
+  "completion_tokens": 505,
+  "latency_ms": 8418.887853622437,
+  "timestamp": "2026-04-12T21:17:15"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "The primary colors are **red, blue, and yellow** in the traditional subtractive color model (used in painting and art), and **red, green, and blue** in the additive color model (used in light and digital displays). The answer depends on the context, but the most commonly referenced primary colors in basic education are **red, blue, and yellow**.",
+  "prompt_tokens": 62,
+  "completion_tokens": 313,
+  "latency_ms": 8993.352174758911,
+  "timestamp": "2026-04-13T00:14:40"
+}

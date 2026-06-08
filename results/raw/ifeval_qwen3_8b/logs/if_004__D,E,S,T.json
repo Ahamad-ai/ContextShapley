@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__D,E,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle involves the continuous movement of water on, above, and below the Earth's surface.  \n2. Solar energy drives evaporation, turning liquid water into water vapor in the atmosphere.  \n3. Condensation forms clouds, which release precipitation (rain, snow, or hail) when conditions are right.  \n4. Runoff and infiltration return water to oceans, lakes, or groundwater systems.  \n5. The cycle repeats as water evaporates again, sustaining ecosystems and weather patterns.",
+  "prompt_tokens": 198,
+  "completion_tokens": 263,
+  "latency_ms": 7005.347728729248,
+  "timestamp": "2026-04-13T00:25:03"
+}

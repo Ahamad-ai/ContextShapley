@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0006__D,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Arithmetic Reference\n- To find a total, add all quantities together.\n- To find a difference, subtract the smaller from the larger.\n- To find a rate, divide quantity by time.\n- To find a percentage, multiply by the decimal form (e.g., 20% = 0.20).\n- Always check your answer by working backwards.\n\n## Question\n\nA perfume company is trying to create new scents. They already have 4 vanilla scents and 8 fruity scents available and they need to decide which kind of scent to focus on. They decide to focus on whichever scent sells the most and monitor their number of sales as part of their research. By the end of the day, they sell 5 of each of the vanilla scents and 2 of each of the fruity scents available. How many more vanilla scents sold compared with the fruity scents?"
+    }
+  ],
+  "response_text": "The perfume company sold 5 of each vanilla scent and 2 of each fruity scent. \n\n- **Vanilla scents sold**: 4 scents \u00d7 5 = 20  \n- **Fruity scents sold**: 8 scents \u00d7 2 = 16  \n\n**Difference**: 20 - 16 = 4  \n\n#### 4",
+  "prompt_tokens": 233,
+  "completion_tokens": 1251,
+  "latency_ms": 75038.0311012268,
+  "timestamp": "2026-04-13T17:57:35"
+}

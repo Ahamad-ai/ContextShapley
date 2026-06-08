@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ac39f7b554299218029dbe7__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nRobert Earl Holding owned an oil company that was originally founded by who?"
+    }
+  ],
+  "response_text": "Harry F. Sinclair.",
+  "prompt_tokens": 23,
+  "completion_tokens": 335,
+  "latency_ms": 5262.812852859497,
+  "timestamp": "2026-04-12T21:09:06"
+}

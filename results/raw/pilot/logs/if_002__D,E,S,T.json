@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__D,E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria use light energy to convert carbon dioxide and water into glucose and oxygen, primarily in chloroplasts with chlorophyll as the key pigment. It underpins most food webs by storing energy in chemical bonds and releasing oxygen into the atmosphere.",
+  "prompt_tokens": 185,
+  "completion_tokens": 454,
+  "latency_ms": 6584.884166717529,
+  "timestamp": "2026-04-12T19:38:56"
+}

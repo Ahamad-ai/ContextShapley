@@ -1,0 +1,19 @@
+{
+  "call_id": "if_008__E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use only words with 3 or fewer syllables. Keep response under 40 words."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a pull. It pulls things with mass, like you and me, to Earth. It makes things fall down and keeps our feet on the ground. It also keeps the Moon near Earth.",
+  "prompt_tokens": 131,
+  "completion_tokens": 1202,
+  "latency_ms": 17902.638912200928,
+  "timestamp": "2026-04-12T20:29:22"
+}

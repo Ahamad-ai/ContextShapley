@@ -1,0 +1,19 @@
+{
+  "call_id": "if_009__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with exactly one word. Nothing else."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "Tokyo",
+  "prompt_tokens": 63,
+  "completion_tokens": 155,
+  "latency_ms": 4532.6080322265625,
+  "timestamp": "2026-04-13T07:17:14"
+}

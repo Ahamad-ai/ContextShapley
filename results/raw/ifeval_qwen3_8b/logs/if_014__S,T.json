@@ -1,0 +1,19 @@
+{
+  "call_id": "if_014__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use the word 'data' at least 3 times in your response. Keep it under 60 words."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what a database is."
+    }
+  ],
+  "response_text": "A database is an organized collection of data. It stores data efficiently, enabling quick retrieval and management of data. Databases ensure data integrity and support complex queries.",
+  "prompt_tokens": 77,
+  "completion_tokens": 204,
+  "latency_ms": 5854.866981506348,
+  "timestamp": "2026-04-13T07:45:00"
+}

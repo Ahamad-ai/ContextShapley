@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes happen when stress accumulates in Earth\u2019s crust until it overcomes the friction and strength holding rocks together along a fault, causing a sudden slip that releases stored elastic energy as seismic waves (elastic rebound). The stress buildup is mainly driven by tectonic plate motions powered by mantle convection, ridge push, and slab pull. Most earthquakes occur at plate boundaries: megathrust events at subduction zones (the largest), strike-slip quakes along transform faults, and normal-fault quakes in extensional settings such as mid-ocean ridges; some occur within plates when old faults are reactivated. Other natural sources include magma movement beneath volcanoes, landslides, and rare meteor impacts. Humans can also induce earthquakes by altering subsurface stresses through activities like wastewater injection, geothermal operations, hydraulic fracturing, reservoir impoundment, and large-scale mining.",
+  "prompt_tokens": 60,
+  "completion_tokens": 762,
+  "latency_ms": 10474.477052688599,
+  "timestamp": "2026-04-12T20:21:02"
+}

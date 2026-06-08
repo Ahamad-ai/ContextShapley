@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__D,E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is a general-purpose programming language used across many domains because of its readability and vast ecosystem of libraries.\n\n- Web development: building APIs and sites with frameworks like Django, Flask, and FastAPI.\n- Data analysis and visualization: using Pandas, NumPy, Matplotlib, Seaborn, and Plotly.\n- Machine learning and AI: with scikit-learn, TensorFlow, PyTorch, and Keras.\n- Scientific computing and research: using SciPy, Jupyter, and SymPy for simulations and prototyping.\n- Automation and scripting: writing scripts to automate file, system, and workflow tasks.\n- DevOps and cloud: infrastructure automation, CI/CD, containers, and serverless functions.\n- Data engineering: ETL pipelines, data validation, and orchestration with Airflow or Prefect.\n- Web scraping and bots: extracting data with Requests, Beautiful Soup, and Scrapy.\n- Testing and QA: unit, integration, and property-based tests with pytest and hypothesis.\n- Desktop and GUI apps: building interfaces with Tkinter, PyQt/PySide, and Kivy.\n- Networking and cybersecurity: socket programming, network automation, and security tooling.\n- IoT and embedded: MicroPython/CircuitPython for microcontrollers and hardware projects.\n- Game and multimedia: simple games and prototypes with Pygame and other engines.\n- Finance and quant: modeling, backtesting, and trading systems with NumPy/Pandas.\n- Geospatial and bioinformatics: analysis with GeoPandas, Shapely, Biopython.\n\nIts cross-platform nature, large community, and extensive libraries make it suitable for beginners and professionals alike.",
+  "prompt_tokens": 132,
+  "completion_tokens": 727,
+  "latency_ms": 10086.7600440979,
+  "timestamp": "2026-04-12T20:40:01"
+}

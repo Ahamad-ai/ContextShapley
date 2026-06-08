@@ -1,0 +1,19 @@
+{
+  "call_id": "if_008__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use only words with 3 or fewer syllables. Keep response under 40 words."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a pull that keeps things on the ground. Like when you jump, it brings you back. It helps planets spin around the sun. It's why you don't float away.",
+  "prompt_tokens": 44,
+  "completion_tokens": 344,
+  "latency_ms": 9667.472839355469,
+  "timestamp": "2026-04-13T07:11:21"
+}

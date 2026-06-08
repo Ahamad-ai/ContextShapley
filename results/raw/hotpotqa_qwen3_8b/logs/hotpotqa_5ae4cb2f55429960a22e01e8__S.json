@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5ae4cb2f55429960a22e01e8__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhich American popular music and country music singer recorded J. D. Souther song "
+    }
+  ],
+  "response_text": "Shakin' Stevens",
+  "prompt_tokens": 67,
+  "completion_tokens": 350,
+  "latency_ms": 12271.04902267456,
+  "timestamp": "2026-04-13T08:32:38"
+}

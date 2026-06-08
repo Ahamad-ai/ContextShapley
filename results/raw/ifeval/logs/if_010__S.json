@@ -1,0 +1,19 @@
+{
+  "call_id": "if_010__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use a numbered list (1. 2. 3. ...). Include exactly 8 items."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nList the planets in our solar system."
+    }
+  ],
+  "response_text": "1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune",
+  "prompt_tokens": 42,
+  "completion_tokens": 170,
+  "latency_ms": 3253.0200481414795,
+  "timestamp": "2026-04-12T20:34:12"
+}

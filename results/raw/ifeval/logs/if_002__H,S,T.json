@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy by synthesizing sugars and releasing oxygen. In oxygenic forms, chlorophyll absorbs light to drive reactions that combine carbon dioxide and water into carbohydrates, providing energy for growth and sustaining food webs.",
+  "prompt_tokens": 105,
+  "completion_tokens": 644,
+  "latency_ms": 9661.432027816772,
+  "timestamp": "2026-04-12T20:00:04"
+}

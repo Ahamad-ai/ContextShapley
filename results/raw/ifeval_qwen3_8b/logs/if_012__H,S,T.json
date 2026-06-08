@@ -1,0 +1,19 @@
+{
+  "call_id": "if_012__H,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly 3 sentences. Each sentence must contain the word 'blue'."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a color that evokes feelings of calmness and serenity, often linked to the sky and the ocean. The hue of blue can range from the deep, mysterious blue of the night to the bright, vibrant blue of a summer sky. Blue is also a common color in nature, found in the petals of flowers and the feathers of birds.",
+  "prompt_tokens": 111,
+  "completion_tokens": 274,
+  "latency_ms": 8990.34595489502,
+  "timestamp": "2026-04-13T07:38:04"
+}

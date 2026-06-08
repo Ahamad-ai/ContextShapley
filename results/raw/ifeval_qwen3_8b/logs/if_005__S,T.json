@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A BRANCH OF ARTIFICIAL INTELLIGENCE WHERE SYSTEMS LEARN FROM DATA, IDENTIFY PATTERNS, AND MAKE DECISIONS WITH MINIMAL HUMAN INTERVENTION. IT USES STATISTICAL METHODS TO ENHANCE PERFORMANCE AS IT GAINS MORE EXPERIENCE.",
+  "prompt_tokens": 67,
+  "completion_tokens": 165,
+  "latency_ms": 4486.903190612793,
+  "timestamp": "2026-04-13T00:27:29"
+}

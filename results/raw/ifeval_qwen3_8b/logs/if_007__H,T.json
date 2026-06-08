@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__H,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Earthquakes are primarily caused by the sudden release of energy from the Earth's crust due to tectonic plate movements. Here's a structured explanation:\n\n1. **Tectonic Plate Movement**:  \n   - The Earth's lithosphere is divided into plates that shift due to convection currents in the mantle.  \n   - When plates collide (convergent boundaries), slide past each other (transform boundaries), or pull apart (divergent boundaries), stress builds up along faults.  \n   - This stress is released abruptly as seismic waves, causing the ground to shake.\n\n2. **Other Triggers**:  \n   - **Volcanic Activity**: Magma movement beneath volcanoes can trigger earthquakes.  \n   - **Human Activities**: Reservoir-induced seismicity (dam construction), fracking, or underground nuclear tests may induce smaller quakes.  \n   - **Landslides or Collapses**: Sudden ground displacement can generate localized tremors.\n\nThe **primary cause** remains tectonic activity, accounting for over 90% of earthquakes.",
+  "prompt_tokens": 89,
+  "completion_tokens": 500,
+  "latency_ms": 13155.811786651611,
+  "timestamp": "2026-04-13T07:08:26"
+}

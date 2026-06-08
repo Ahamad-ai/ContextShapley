@@ -1,0 +1,19 @@
+{
+  "call_id": "if_009__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with exactly one word. Nothing else."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "Tokyo",
+  "prompt_tokens": 34,
+  "completion_tokens": 120,
+  "latency_ms": 3526.7889499664307,
+  "timestamp": "2026-04-13T07:16:40"
+}

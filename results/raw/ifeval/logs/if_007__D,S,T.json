@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__D,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes are primarily caused by the sudden release of accumulated stress in Earth\u2019s crust, most often along faults where tectonic plates interact; as plates grind past, collide, or pull apart, rocks deform until they rupture (elastic rebound), generating seismic waves from a subsurface focus (hypocenter) that radiate to the surface (epicenter). Most occur at plate boundaries: transform faults produce strike-slip quakes, convergent margins and subduction zones generate powerful thrust and megathrust earthquakes (sometimes causing tsunamis), and divergent boundaries yield normal-fault quakes at rifts and mid-ocean ridges; quakes also happen within plates on reactivated ancient faults. Additional causes include volcanic magma movement, landslides or collapses, isostatic rebound after ice melt, large reservoir impoundment, deep mining, wastewater injection or hydraulic fracturing (induced seismicity), and rare meteor impacts, with aftershocks reflecting ongoing fault readjustment.",
+  "prompt_tokens": 117,
+  "completion_tokens": 658,
+  "latency_ms": 9405.900001525879,
+  "timestamp": "2026-04-12T20:23:04"
+}

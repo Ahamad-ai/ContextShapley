@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "- The water cycle is the continuous movement of water among the ocean, atmosphere, land, and ice, powered by the Sun\u2019s energy and gravity.\n- Water leaves the surface as vapor through evaporation from water bodies and soils and transpiration from plants; ice and snow can also sublimate directly to vapor.\n- Warm, moist air rises and cools, causing water vapor to condense onto tiny particles, forming cloud droplets or ice crystals and releasing latent heat.\n- Winds transport clouds; when droplets or crystals grow large enough, they fall as precipitation (rain, snow, sleet, or hail), some of which may evaporate before reaching the ground.\n- At the surface, precipitation can be intercepted by vegetation, run off overland into streams and rivers, or infiltrate into the soil.\n- Infiltrated water percolates downward to recharge aquifers; groundwater then moves slowly, emerging as springs, feeding wetlands, sustaining river baseflow, and eventually discharging to lakes and oceans.\n- In cold regions, water is stored temporarily as snowpack and glaciers and is later released during melt seasons.\n- Evaporation and transpiration from land and oceans return water to the atmosphere, closing the loop and maintaining a continuous cycle.\n- This cycle redistributes heat and fresh water, shaping weather, climate, and ecosystems; human activities and climate change are altering it by changing evapotranspiration, runoff, storage, and precipitation patterns, often intensifying floods and droughts.",
+  "prompt_tokens": 79,
+  "completion_tokens": 1460,
+  "latency_ms": 20449.073791503906,
+  "timestamp": "2026-04-12T20:06:52"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__E,H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria convert light energy into chemical energy, making sugars from carbon dioxide and water and releasing oxygen. In plants and algae it occurs in chloroplasts, where chlorophyll absorbs light. It has two main stages: light-dependent reactions in the thylakoid membranes that split water to release O2 and produce ATP and NADPH, and the Calvin cycle in the stroma that uses ATP and NADPH to fix CO2 into carbohydrates (ultimately glucose). Overall: 6 CO2 + 6 H2O + light \u2192 C6H12O6 + 6 O2. This process powers most food webs, produces Earth\u2019s oxygen, and helps regulate the carbon cycle.",
+  "prompt_tokens": 138,
+  "completion_tokens": 928,
+  "latency_ms": 11905.720233917236,
+  "timestamp": "2026-04-12T20:00:32"
+}

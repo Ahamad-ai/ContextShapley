@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D,E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "- Solar energy drives evaporation of liquid water from oceans, lakes, rivers, and soils, turning it into water vapor. Plants add vapor through transpiration; together these are called evapotranspiration.\n- Winds transport (advect) water vapor horizontally through the atmosphere while warm, moist air rises and cools.\n- As air cools, water vapor condenses onto tiny particles to form cloud droplets or ice crystals; this is condensation, the step that builds clouds and fog.\n- When droplets or crystals grow large enough, they fall as precipitation: rain, snow, sleet, or hail. Some snow may accumulate in glaciers and ice sheets.\n- A portion of precipitation is intercepted by vegetation and evaporates back to the air; some evaporates before reaching the ground (virga).\n- On the ground, water either infiltrates into soil or becomes surface runoff. Infiltrated water can be stored as soil moisture, taken up by plants, or percolate deeper to recharge aquifers (groundwater).\n- Groundwater moves slowly through aquifers and emerges as springs or baseflow into streams and rivers, sustaining flow between storms.\n- Surface runoff and streamflow carry water back to lakes, wetlands, and ultimately the oceans, completing the loop.\n- Water is also stored temporarily in reservoirs such as snowpack, glaciers, lakes, wetlands, soils, and aquifers; each has different residence times (from minutes in the atmosphere to decades or millennia in deep groundwater and ice).\n- Additional pathways include sublimation (ice to vapor) and deposition (vapor to ice) in cold regions.\n- The cycle\u2019s intensity and pathways vary by climate and season, and human activities (urbanization, deforestation, dams, irrigation, and climate change) alter evapotranspiration, runoff, infiltration, and storage, influencing floods, droughts, and water availability.",
+  "prompt_tokens": 136,
+  "completion_tokens": 898,
+  "latency_ms": 11512.717962265015,
+  "timestamp": "2026-04-12T20:08:27"
+}

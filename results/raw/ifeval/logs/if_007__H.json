@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Most earthquakes happen when stress builds up in Earth\u2019s crust and is suddenly released as rocks slip along faults. Plate tectonics drives this process: plates constantly move, stress accumulates where they stick, friction finally gives way, and the resulting rupture sends out seismic waves.\n\nKey causes:\n- Tectonic plate motion and fault slip (elastic rebound): The primary cause. Rupture starts at the hypocenter (focus) and propagates along a fault, producing waves felt at the surface near the epicenter.\n- Plate boundary settings:\n  - Convergent boundaries (subduction/continental collision): Can produce the largest quakes (megathrusts) and deep-focus events within subducting slabs.\n  - Transform boundaries: Lateral sliding along strike-slip faults (e.g., San Andreas).\n  - Divergent boundaries: Normal faulting at mid-ocean ridges and rifts, usually smaller.\n- Intraplate earthquakes: Reactivation of old faults within plates due to regional stresses or mantle processes.\n- Volcanic/tectonomagmatic activity: Movement of magma and pressurized fluids fractures surrounding rock, causing swarms near volcanoes.\n- Human-induced seismicity: Changes in subsurface stress from activities such as wastewater or geothermal fluid injection, hydraulic fracturing (usually small), reservoir impoundment, mining/extraction, and underground explosions.\n- Other triggers: Large landslides, collapse in karst or mine workings, glacial rebound, and meteor impacts.\n\nRelated phenomena:\n- Aftershocks and foreshocks: Stress changes from a main rupture can trigger additional quakes on or near the same or adjacent faults.\n- Fault types: Normal (extension), reverse/thrust (compression), and strike-slip (shear) reflect the stress regime and influence earthquake characteristics.",
+  "prompt_tokens": 55,
+  "completion_tokens": 883,
+  "latency_ms": 14079.833269119263,
+  "timestamp": "2026-04-12T20:20:04"
+}

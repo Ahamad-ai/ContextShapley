@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the color system:\n\n- Additive (light/screens): red, green, blue (RGB)\n- Subtractive (printing/pigments): cyan, magenta, yellow (CMY; CMYK adds black)\n- Traditional art (RYB model): red, yellow, blue\n\nIf you have a specific context in mind, I can focus on that one.",
+  "prompt_tokens": 57,
+  "completion_tokens": 662,
+  "latency_ms": 10880.774974822998,
+  "timestamp": "2026-04-12T20:02:00"
+}

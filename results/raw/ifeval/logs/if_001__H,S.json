@@ -1,0 +1,19 @@
+{
+  "call_id": "if_001__H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Always respond in exactly 3 bullet points. Start each bullet with a dash (-)."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health by strengthening the heart, lowering blood pressure, and improving cholesterol profiles\n- Enhances mental well-being by boosting mood and cognition, reducing anxiety/depression, and improving sleep and stress resilience\n- Supports healthy body composition and function by building muscle and bone density, improving insulin sensitivity and weight management, and increasing mobility and energy",
+  "prompt_tokens": 78,
+  "completion_tokens": 335,
+  "latency_ms": 5387.0038986206055,
+  "timestamp": "2026-04-12T19:54:07"
+}

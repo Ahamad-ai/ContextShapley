@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0008__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nMarcy makes homemade candles that she markets as 99% guaranteed not to explode. 5% of the more dangerous candles also have a defect that makes them smell like wet dog. If she makes 50000 candles, how many of them will both smell like wet dog and explode?"
+    }
+  ],
+  "response_text": "- 99% are guaranteed not to explode, so 1% may explode.\n- Out of 50000 candles, expected to explode: 0.01 \u00d7 50000 = 500.\n- Of these dangerous candles, 5% also smell like wet dog: 0.05 \u00d7 500 = 25.\n\n#### 25",
+  "prompt_tokens": 103,
+  "completion_tokens": 464,
+  "latency_ms": 7261.399030685425,
+  "timestamp": "2026-04-12T21:57:28"
+}

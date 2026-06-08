@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__D,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A BRANCH OF AI THAT ENABLES COMPUTERS TO LEARN PATTERNS FROM DATA AND MAKE PREDICTIONS OR DECISIONS WITHOUT EXPLICIT PROGRAMMING, USING METHODS LIKE SUPERVISED, UNSUPERVISED, AND REINFORCEMENT LEARNING FOR TASKS SUCH AS CLASSIFICATION, REGRESSION, CLUSTERING, RECOMMENDATION, AND CONTROL.",
+  "prompt_tokens": 89,
+  "completion_tokens": 544,
+  "latency_ms": 9492.770910263062,
+  "timestamp": "2026-04-12T20:13:27"
+}

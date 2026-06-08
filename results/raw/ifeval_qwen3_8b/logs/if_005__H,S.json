@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__H,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A SUBSET OF AI WHERE SYSTEMS LEARN PATTERNS FROM DATA WITHOUT Explicit PROGRAMMING, USING ALGORITHMS TO IMPROVE PERFORMANCE ON TASKS LIKE PREDICTION AND CLASSIFICATION THROUGH EXPERIENCE.",
+  "prompt_tokens": 81,
+  "completion_tokens": 138,
+  "latency_ms": 3843.54305267334,
+  "timestamp": "2026-04-13T00:27:24"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__H,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A SUBSET OF ARTIFICIAL INTELLIGENCE FOCUSED ON ALGORITHMS LEARNING FROM DATA TO MAKE PREDICTIONS OR DECISIONS.",
+  "prompt_tokens": 110,
+  "completion_tokens": 203,
+  "latency_ms": 5523.221969604492,
+  "timestamp": "2026-04-13T00:29:04"
+}

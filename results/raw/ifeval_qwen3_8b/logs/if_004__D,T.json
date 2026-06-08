@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle, also known as the hydrological cycle, is the continuous movement of water on, above, and below the surface of the Earth. It involves four key processes:  \n1. **Evaporation**: Water turns into vapor and rises into the atmosphere due to solar heat.  \n2. **Condensation**: Vapor cools and forms clouds.  \n3. **Precipitation**: Water falls as rain, snow, sleet, or hail.  \n4. **Collection**: Water gathers in oceans, lakes, rivers, or infiltrates the ground.  \n\nThis cycle redistributes water, supports ecosystems, and sustains life by recycling water across the planet.",
+  "prompt_tokens": 104,
+  "completion_tokens": 371,
+  "latency_ms": 9636.565923690796,
+  "timestamp": "2026-04-13T00:23:15"
+}

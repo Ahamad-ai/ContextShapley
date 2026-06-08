@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a7f244255429934daa2fcec__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Which \"Blackzilians\" fighter is currently competing in the Middleweight division of Ultimate Fighting Championship?\nA: Vitor Belfort\n\nQ: What was the concept of the business Eric S .Pistorius worked for after being an attorney?\nA: to ensure wide visibility and understanding of cases in a region\n\nQ: Ruddles Brewery is owned by a pub retailer and brewer based in what city?\nA: Bury St Edmunds\n\n## Question\n\nSt. John's College, Belize offers an education in a tradition in which what three subjects were the core?"
+    }
+  ],
+  "response_text": "Philosophy, theology, and the classics.",
+  "prompt_tokens": 125,
+  "completion_tokens": 1108,
+  "latency_ms": 17159.801959991455,
+  "timestamp": "2026-04-12T21:06:00"
+}

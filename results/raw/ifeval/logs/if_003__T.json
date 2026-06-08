@@ -1,0 +1,15 @@
+{
+  "call_id": "if_003__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "It depends on the context:\n\n- Light (additive color mixing, screens): red, green, blue (RGB)\n- Modern printing/inks (subtractive color mixing): cyan, magenta, yellow (CMY), often with black added (CMYK)\n- Traditional art/paints: red, yellow, blue (RYB)",
+  "prompt_tokens": 44,
+  "completion_tokens": 399,
+  "latency_ms": 6171.243906021118,
+  "timestamp": "2026-04-12T20:02:06"
+}

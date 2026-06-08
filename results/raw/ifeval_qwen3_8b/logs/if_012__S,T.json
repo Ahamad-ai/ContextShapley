@@ -1,0 +1,19 @@
+{
+  "call_id": "if_012__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly 3 sentences. Each sentence must contain the word 'blue'."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a primary color that evokes feelings of calmness and serenity. Blue is the color of the clear sky and the deep, tranquil ocean. Blue is also a common color in nature, from the petals of flowers to the feathers of birds.",
+  "prompt_tokens": 68,
+  "completion_tokens": 258,
+  "latency_ms": 7341.814041137695,
+  "timestamp": "2026-04-13T07:35:51"
+}

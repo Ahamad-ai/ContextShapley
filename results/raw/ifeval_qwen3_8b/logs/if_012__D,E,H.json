@@ -1,0 +1,15 @@
+{
+  "call_id": "if_012__D,E,H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a primary color in the visible spectrum, occupying the range of wavelengths from approximately 450 to 495 nanometers. It is often associated with the sky, oceans, and cool temperatures. Shades of blue include sky blue, navy blue, and turquoise, while complementary colors like orange create contrast. Culturally, blue symbolizes calmness, trust, and stability, though it can also evoke feelings of sadness or melancholy in certain contexts.",
+  "prompt_tokens": 170,
+  "completion_tokens": 375,
+  "latency_ms": 11914.751052856445,
+  "timestamp": "2026-04-13T07:38:16"
+}

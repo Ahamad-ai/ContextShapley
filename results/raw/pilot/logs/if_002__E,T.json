@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, making sugars from carbon dioxide and water. In plants it occurs in chloroplasts, where chlorophyll absorbs light. Light-dependent reactions split water to release oxygen and produce ATP and NADPH; the Calvin cycle then uses these to fix CO2 into glucose and other carbohydrates. Overall, CO2 + H2O + light \u2192 sugars + O2. Photosynthesis underpins most food webs and replenishes the oxygen in Earth\u2019s atmosphere.",
+  "prompt_tokens": 109,
+  "completion_tokens": 758,
+  "latency_ms": 9825.289964675903,
+  "timestamp": "2026-04-12T19:36:41"
+}

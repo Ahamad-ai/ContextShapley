@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ae4cb2f55429960a22e01e8__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: The creator of the Lisa Simpson character was born in what year?\nA: 1954\n\nQ: Phillip Pullman's book set in a parallel universe featuring a character named Lyra Belacqua was put into audio in what year?\nA: 2002\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\n## Question\n\nWhich American popular music and country music singer recorded J. D. Souther song "
+    }
+  ],
+  "response_text": "A: Glen Campbell",
+  "prompt_tokens": 121,
+  "completion_tokens": 492,
+  "latency_ms": 20132.99870491028,
+  "timestamp": "2026-04-13T08:32:58"
+}

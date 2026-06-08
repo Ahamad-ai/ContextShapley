@@ -1,0 +1,15 @@
+{
+  "call_id": "if_006__H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "- France\n- Germany\n- Spain\n- Italy\n- Sweden",
+  "prompt_tokens": 86,
+  "completion_tokens": 408,
+  "latency_ms": 6590.955018997192,
+  "timestamp": "2026-04-12T20:17:40"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web development (Django, Flask, FastAPI)\n- Data analysis and visualization (NumPy, pandas, matplotlib)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting (system tasks, ETL, RPA)\n- Scientific computing and research (SciPy, Jupyter)\n- DevOps and cloud tooling (IaC scripts, CI/CD, serverless on AWS/GCP/Azure)\n- APIs and microservices\n- Web scraping and bots (Requests, BeautifulSoup, Scrapy)\n- Desktop GUIs and simple games (Tkinter, PyQt, Pygame)\n- Education and rapid prototyping\n\nIs there anything else you need?",
+  "prompt_tokens": 115,
+  "completion_tokens": 1049,
+  "latency_ms": 15972.942113876343,
+  "timestamp": "2026-04-12T19:31:49"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ae4cb2f55429960a22e01e8__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"Which American popular music and country music singer recorded J. D. Souther song \", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: Linda Maria Ronstadt.\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWhich American popular music and country music singer recorded J. D. Souther song "
+    }
+  ],
+  "response_text": "Linda Ronstadt.",
+  "prompt_tokens": 95,
+  "completion_tokens": 526,
+  "latency_ms": 7191.58411026001,
+  "timestamp": "2026-04-12T21:14:33"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "Machine learning is a branch of artificial intelligence where computers learn patterns from data to make predictions, decisions, or generate content without being explicitly programmed for each specific task. Instead of hand-coding rules, you provide examples (data) and an algorithm that finds a model capturing the underlying relationships, which can then generalize to new, unseen data.\n\nHow it works (high level):\n- You collect data and define the task (e.g., classify emails as spam/not spam).\n- Choose or design a model family (e.g., decision trees, neural networks).\n- Define a loss/objective function that measures errors.\n- Use an optimization method (e.g., gradient descent) to adjust model parameters on training data.\n- Validate on separate data to check generalization and avoid overfitting; iterate as needed.\n- Deploy and monitor performance, updating the model as data or requirements change.\n\nCommon types:\n- Supervised learning: Learn from labeled examples (inputs with known outputs), e.g., image classification, price prediction.\n- Unsupervised learning: Find structure in unlabeled data, e.g., clustering customers, dimensionality reduction.\n- Semi-supervised and self-supervised learning: Leverage large amounts of unlabeled data with a small labeled set or pretext tasks.\n- Reinforcement learning: Learn to act via trial and error to maximize long-term reward, e.g., game playing, robotics control.\n\nExamples:\n- Spam filtering, recommendations, fraud detection, speech and image recognition, machine translation, medical diagnosis support, predictive maintenance, generative text and images.\n\nKey considerations and limitations:\n- Data quality and representativeness strongly affect results; biased data can lead to biased models.\n- Overfitting occurs when a model memorizes training data and fails on new cases; requires regularization and robust evaluation.\n- Interpretability, robustness to adversarial inputs, privacy, and alignment with human values are important practical concerns.\n\nIn short, machine learning turns data and experience into adaptable models that perform tasks traditionally requiring human intuition or hand-crafted rules.",
+  "prompt_tokens": 71,
+  "completion_tokens": 866,
+  "latency_ms": 14643.81194114685,
+  "timestamp": "2026-04-12T20:12:48"
+}

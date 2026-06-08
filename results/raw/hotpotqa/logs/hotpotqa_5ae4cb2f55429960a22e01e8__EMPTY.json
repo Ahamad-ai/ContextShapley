@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ae4cb2f55429960a22e01e8__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWhich American popular music and country music singer recorded J. D. Souther song "
+    }
+  ],
+  "response_text": "Linda Ronstadt.",
+  "prompt_tokens": 26,
+  "completion_tokens": 718,
+  "latency_ms": 10052.41084098816,
+  "timestamp": "2026-04-12T21:13:40"
+}

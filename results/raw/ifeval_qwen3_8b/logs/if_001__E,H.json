@@ -1,0 +1,15 @@
+{
+  "call_id": "if_001__E,H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health and strengthens the heart.  \n- Enhances mental well-being by reducing stress and anxiety.  \n- Promotes weight management and increases overall energy levels.",
+  "prompt_tokens": 127,
+  "completion_tokens": 195,
+  "latency_ms": 5050.882816314697,
+  "timestamp": "2026-04-13T00:05:01"
+}

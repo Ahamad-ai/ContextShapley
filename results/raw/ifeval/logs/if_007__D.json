@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Most earthquakes are caused by sudden slip on faults. Tectonic plates in Earth\u2019s outer shell are constantly moving; stress builds up where they stick. When the stress exceeds the strength of the rocks, they break or slide, releasing energy as seismic waves. This is called elastic rebound.\n- Plate boundary settings:\n  - Transform boundaries (plates slide past each other) produce strike\u2011slip quakes, e.g., along the San Andreas Fault.\n  - Convergent boundaries (plates collide or one subducts) produce powerful thrust or megathrust earthquakes; these cause the largest quakes and tsunamis, e.g., Japan 2011, Chile 1960.\n  - Divergent boundaries (plates pull apart) produce normal\u2011fault earthquakes, common at mid\u2011ocean ridges and rift zones.\n- Intraplate earthquakes occur away from plate boundaries when ancient faults are reactivated by far\u2011field stresses or changes in crustal loads (e.g., post\u2011glacial rebound).\n- Volcanic processes can trigger earthquakes as magma moves, cracks rock, and changes pressure in the crust; these quakes often occur in swarms.\n- Human activities can induce seismicity by changing stresses or pore pressures in the crust:\n  - Wastewater/injection wells and some hydraulic fracturing operations.\n  - Reservoir impoundment behind large dams (reservoir\u2011induced seismicity).\n  - Geothermal energy production and deep heat mining.\n  - Mining and hydrocarbon extraction.\n  - Large underground explosions (e.g., nuclear tests).\n- Other minor sources include collapse of underground cavities (mines, karst), large landslides, and very rare meteor impacts.\n\nKey ideas: stress builds up in rocks, faults slip suddenly, and the released energy travels as seismic waves. The size of an earthquake depends mainly on the area of the fault that slips and how far it moves; depth and local geology influence how strongly the shaking is felt at the surface.",
+  "prompt_tokens": 70,
+  "completion_tokens": 1115,
+  "latency_ms": 16789.167881011963,
+  "timestamp": "2026-04-12T20:19:50"
+}

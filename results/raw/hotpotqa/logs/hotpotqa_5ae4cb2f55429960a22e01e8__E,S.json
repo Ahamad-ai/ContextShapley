@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5ae4cb2f55429960a22e01e8__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: The creator of the Lisa Simpson character was born in what year?\nA: 1954\n\nQ: Phillip Pullman's book set in a parallel universe featuring a character named Lyra Belacqua was put into audio in what year?\nA: 2002\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\n## Question\n\nWhich American popular music and country music singer recorded J. D. Souther song "
+    }
+  ],
+  "response_text": "Linda Ronstadt",
+  "prompt_tokens": 147,
+  "completion_tokens": 653,
+  "latency_ms": 8119.956970214844,
+  "timestamp": "2026-04-12T21:14:41"
+}

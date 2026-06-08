@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a738fe855429908901be2fb__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: George Gershwin is an American Composer and Judith Weir is a composer from which country?\nA: a British composer\n\nQ: Where is the international airport which Eagle Aviation wet lease operations were based in located \nA: France.\n\nQ:  Jason Regler, stated that he had the idea for the flashing wristbands during a song built around which instrument ?\nA: an organ\n\n## Question\n\nWhat film was written and directed by Joby Harold with music written by Samuel Sim?"
+    }
+  ],
+  "response_text": "A: The Last Days of American Crime",
+  "prompt_tokens": 113,
+  "completion_tokens": 298,
+  "latency_ms": 67906.04496002197,
+  "timestamp": "2026-04-13T09:42:44"
+}

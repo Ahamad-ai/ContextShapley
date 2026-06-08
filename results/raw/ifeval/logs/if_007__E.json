@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "- Most earthquakes happen when stress builds up in Earth\u2019s crust from moving tectonic plates and is suddenly released as rocks slip along faults (elastic rebound).\n- The sudden slip starts at a focus (hypocenter) and releases energy as seismic waves; the point above it on the surface is the epicenter.\n- Plate boundaries are the main settings: convergent (subduction/collision) can produce the largest quakes, transform (strike-slip) cause lateral shearing quakes, and divergent (spreading ridges) usually cause smaller ones.\n- Earthquakes also occur within plates when old faults are reactivated by far\u2011field stresses.\n- Magma movement and volcanic activity can generate volcanic earthquakes and long\u2011period tremor.\n- Human activities can induce seismicity, including fluid injection or withdrawal (wastewater disposal, geothermal, fracking), large reservoir filling, mining, and underground explosions.\n- Other triggers include landslides or cave collapses, isostatic adjustments (e.g., post\u2011glacial rebound), and rare meteor impacts.\n- Foreshocks and aftershocks arise as the crust continues to adjust around the main rupture.",
+  "prompt_tokens": 78,
+  "completion_tokens": 947,
+  "latency_ms": 10186.133861541748,
+  "timestamp": "2026-04-12T20:19:34"
+}

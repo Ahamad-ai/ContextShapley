@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a7f244255429934daa2fcec__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nSt. John's College, Belize offers an education in a tradition in which what three subjects were the core?"
+    }
+  ],
+  "response_text": "Latin, Greek, and mathematics.",
+  "prompt_tokens": 30,
+  "completion_tokens": 785,
+  "latency_ms": 11913.515090942383,
+  "timestamp": "2026-04-12T21:05:31"
+}

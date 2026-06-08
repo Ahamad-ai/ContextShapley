@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5ab61140554299110f2199d7__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWho is known for composing  American Beauty: Original Motion Picture Score and many other film scores?"
+    }
+  ],
+  "response_text": "Thomas Newman.",
+  "prompt_tokens": 62,
+  "completion_tokens": 397,
+  "latency_ms": 7507.015705108643,
+  "timestamp": "2026-04-12T21:19:05"
+}

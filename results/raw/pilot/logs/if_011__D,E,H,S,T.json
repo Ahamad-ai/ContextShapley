@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__D,E,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web development for websites, APIs, and microservices (e.g., Django, Flask, FastAPI)\n- Data analysis and visualization (NumPy, pandas, Matplotlib, Seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting for system tasks, RPA, and productivity\n- Scientific computing and research (SciPy, Jupyter)\n- DevOps and infrastructure as code (Ansible), CI/CD pipelines, cloud SDKs\n- Testing and quality assurance (unittest, pytest)\n- Data engineering and ETL/ELT workflows (Airflow, dbt, PySpark)\n- Desktop GUI applications (Tkinter, PyQt/PySide, Kivy)\n- Game development and multimedia (Pygame, Godot bindings)\n- Networking and cybersecurity tooling (asyncio, Twisted, Scapy)\n- IoT and embedded development (MicroPython, CircuitPython)\n- Finance and quantitative analysis (backtesting, risk modeling, trading systems)\n- Web scraping and bots (requests, Beautiful Soup, Scrapy, Playwright)\n- Education and rapid prototyping due to its readability and large ecosystem\nIs there anything else you need?",
+  "prompt_tokens": 214,
+  "completion_tokens": 959,
+  "latency_ms": 13736.907958984375,
+  "timestamp": "2026-04-12T19:34:31"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,E,H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy (usually from the sun) into chemical energy stored in glucose. This occurs in the chloroplasts of plant cells, where chlorophyll (a green pigment) absorbs sunlight. The process takes in carbon dioxide (CO\u2082) from the air and water (H\u2082O) from the soil, using sunlight to synthesize glucose (C\u2086H\u2081\u2082O\u2086) and release oxygen (O\u2082) as a byproduct. The overall equation is: 6CO\u2082 + 6H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082. This process sustains plant growth and forms the foundation of most food chains.",
+  "prompt_tokens": 172,
+  "completion_tokens": 507,
+  "latency_ms": 18222.77808189392,
+  "timestamp": "2026-04-13T00:12:05"
+}

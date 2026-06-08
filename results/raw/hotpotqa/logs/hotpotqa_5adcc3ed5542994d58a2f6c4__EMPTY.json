@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5adcc3ed5542994d58a2f6c4__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?"
+    }
+  ],
+  "response_text": "",
+  "prompt_tokens": 30,
+  "completion_tokens": 2048,
+  "latency_ms": 23302.84094810486,
+  "timestamp": "2026-04-12T21:24:38"
+}

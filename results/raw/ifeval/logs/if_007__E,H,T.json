@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__E,H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Earthquakes occur when stress builds up in Earth\u2019s crust\u2014mostly from the slow motion of tectonic plates\u2014and is released suddenly as a fault slips, sending out seismic waves. Most occur at plate boundaries: subduction and collision zones (thrust quakes), transform faults (strike-slip), and rifts (normal-fault quakes). Others are triggered by volcanic activity or by stress within a plate. A smaller share are human-induced by fluid injection/wastewater disposal, large reservoirs, mining, and geothermal projects, and quakes can also result from landslides or meteor impacts.",
+  "prompt_tokens": 149,
+  "completion_tokens": 961,
+  "latency_ms": 10866.809129714966,
+  "timestamp": "2026-04-12T20:23:40"
+}

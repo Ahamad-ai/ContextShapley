@@ -1,0 +1,19 @@
+{
+  "call_id": "if_009__H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with exactly one word. Nothing else."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "Tokyo",
+  "prompt_tokens": 71,
+  "completion_tokens": 75,
+  "latency_ms": 2739.848852157593,
+  "timestamp": "2026-04-12T20:32:33"
+}

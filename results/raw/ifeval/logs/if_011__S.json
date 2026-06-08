@@ -1,0 +1,19 @@
+{
+  "call_id": "if_011__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "End your response with the exact phrase 'Is there anything else you need?'"
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "",
+  "prompt_tokens": 34,
+  "completion_tokens": 2048,
+  "latency_ms": 32377.016067504883,
+  "timestamp": "2026-04-12T20:37:40"
+}

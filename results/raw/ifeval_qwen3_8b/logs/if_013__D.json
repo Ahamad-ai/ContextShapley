@@ -1,0 +1,15 @@
+{
+  "call_id": "if_013__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is 15 + 27?"
+    }
+  ],
+  "response_text": "The sum of 15 and 27 is **42**.",
+  "prompt_tokens": 80,
+  "completion_tokens": 169,
+  "latency_ms": 5227.165937423706,
+  "timestamp": "2026-04-13T07:40:36"
+}

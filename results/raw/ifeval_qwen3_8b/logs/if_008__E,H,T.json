@@ -1,0 +1,15 @@
+{
+  "call_id": "if_008__E,H,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is like an invisible magic pull that keeps everything stuck to the ground. It\u2019s why you don\u2019t float away when you jump and why the moon orbits the Earth! \ud83c\udf0d\u2728",
+  "prompt_tokens": 157,
+  "completion_tokens": 230,
+  "latency_ms": 6625.2851486206055,
+  "timestamp": "2026-04-13T07:15:21"
+}

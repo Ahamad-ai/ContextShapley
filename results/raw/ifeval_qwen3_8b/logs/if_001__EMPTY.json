@@ -1,0 +1,15 @@
+{
+  "call_id": "if_001__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "1. **Improved Physical Health**: Exercise strengthens the heart, lungs, and muscles, enhances flexibility, and boosts overall stamina, reducing the risk of chronic diseases like heart disease and diabetes.  \n2. **Enhanced Mental Well-being**: Physical activity reduces stress, anxiety, and symptoms of depression by releasing endorphins and improving sleep quality.  \n3. **Weight Management**: Regular exercise helps burn calories, build muscle, and regulate metabolism, making it easier to maintain a healthy weight and prevent obesity-related conditions.",
+  "prompt_tokens": 19,
+  "completion_tokens": 429,
+  "latency_ms": 10856.844663619995,
+  "timestamp": "2026-04-13T00:03:58"
+}

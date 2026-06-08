@@ -1,0 +1,19 @@
+{
+  "call_id": "if_003__H,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in valid JSON format with a key called 'answer'."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat are the primary colors?"
+    }
+  ],
+  "response_text": "{\"answer\":\"It depends on context: Additive (light/screens) \u2014 red, green, blue (RGB); Subtractive (printing/ink) \u2014 cyan, magenta, yellow (often with black: CMYK); Traditional art pigments \u2014 red, yellow, blue (RYB).\"}",
+  "prompt_tokens": 73,
+  "completion_tokens": 453,
+  "latency_ms": 7704.771041870117,
+  "timestamp": "2026-04-12T20:02:39"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__E,H",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle involves the continuous movement of water on, above, and below the Earth's surface. Key stages include evaporation (water turning into vapor), condensation (vapor forming clouds), precipitation (rain, snow, or hail falling), and collection (water returning to bodies of water or infiltrating the ground). This process redistributes water across the planet, sustaining ecosystems and weather patterns.",
+  "prompt_tokens": 126,
+  "completion_tokens": 289,
+  "latency_ms": 7505.900859832764,
+  "timestamp": "2026-04-13T00:22:45"
+}

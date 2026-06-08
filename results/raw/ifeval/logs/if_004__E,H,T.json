@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__E,H,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "- The water cycle is the continuous movement of water through Earth\u2019s systems, powered by the sun and gravity.\n- Surface water from oceans, lakes, and rivers evaporates; plants release water vapor through transpiration; ice and snow can sublime directly to vapor.\n- Warm, moist air rises and cools; water vapor condenses onto tiny particles to form clouds, releasing latent heat that can drive further uplift.\n- Winds (advection) transport moisture-laden air; within clouds, droplets and ice crystals grow and eventually fall as precipitation (rain, snow, sleet, hail).\n- Some precipitation is intercepted by vegetation and re-evaporates; some infiltrates into soil, becoming soil moisture or percolating deeper to recharge groundwater.\n- Groundwater moves slowly through aquifers and can emerge as springs or seep into streams, sustaining baseflow; water also flows overland as runoff into rivers, lakes, and ultimately the ocean.\n- In cold regions, water is stored as snow and ice, later melting to feed streams; evaporation and sublimation return water to the atmosphere, completing the cycle.\n- Human activities\u2014such as urbanization, deforestation, irrigation, and reservoir construction\u2014alter infiltration, runoff, and evaporation patterns; climate change affects evaporation rates, precipitation intensity, and storage.",
+  "prompt_tokens": 150,
+  "completion_tokens": 974,
+  "latency_ms": 11177.383184432983,
+  "timestamp": "2026-04-12T20:11:10"
+}

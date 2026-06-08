@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5a7f244255429934daa2fcec__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nSt. John's College, Belize offers an education in a tradition in which what three subjects were the core?"
+    }
+  ],
+  "response_text": "St. John's College, Belize, is part of the University of Belize and follows a traditional liberal arts education model. The three core subjects in its curriculum are **history, philosophy, and literature**. These subjects form the foundation of the Great Books program, which emphasizes critical thinking, classical texts, and interdisciplinary learning. While the college may also incorporate sciences and mathematics, the primary core subjects are the humanities, focusing on the study of history, philosophy, and literature as central to a liberal arts education. \n\n**Answer:** The three core subjects are **history, philosophy, and literature**.",
+  "prompt_tokens": 35,
+  "completion_tokens": 1556,
+  "latency_ms": 49740.78392982483,
+  "timestamp": "2026-04-13T08:05:51"
+}

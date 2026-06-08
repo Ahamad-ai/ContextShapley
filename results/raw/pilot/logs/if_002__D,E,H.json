@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,E,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria convert light energy into chemical energy stored in sugars. In the light-dependent reactions, pigments like chlorophyll absorb sunlight, driving the splitting of water into oxygen, electrons, and protons, and producing energy carriers ATP and NADPH. In the Calvin cycle (light-independent reactions), the enzyme RuBisCO helps fix carbon dioxide into organic molecules, using ATP and NADPH to build carbohydrates such as glucose. This process occurs in chloroplasts in plants and algae, specifically across the thylakoid membranes (light reactions) and in the stroma (Calvin cycle). Photosynthesis is fundamental to life on Earth because it forms the base of most food chains and releases oxygen into the atmosphere while helping regulate the global carbon cycle.",
+  "prompt_tokens": 179,
+  "completion_tokens": 425,
+  "latency_ms": 5424.4349002838135,
+  "timestamp": "2026-04-12T19:38:12"
+}

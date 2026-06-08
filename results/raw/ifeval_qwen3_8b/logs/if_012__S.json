@@ -1,0 +1,19 @@
+{
+  "call_id": "if_012__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly 3 sentences. Each sentence must contain the word 'blue'."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a color that evokes calmness, often associated with the serene sky and tranquil oceans. Blue can also symbolize depth, as seen in the vastness of the sea or the mystery of the night. Blue is a versatile hue, appearing in nature, art, and even as a metaphor for emotions like sadness or creativity.",
+  "prompt_tokens": 39,
+  "completion_tokens": 190,
+  "latency_ms": 5592.368841171265,
+  "timestamp": "2026-04-13T07:33:48"
+}

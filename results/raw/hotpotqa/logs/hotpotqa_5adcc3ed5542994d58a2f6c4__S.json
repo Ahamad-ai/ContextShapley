@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adcc3ed5542994d58a2f6c4__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?"
+    }
+  ],
+  "response_text": "International Federation of Competitive Eating (IFOCE)",
+  "prompt_tokens": 64,
+  "completion_tokens": 1747,
+  "latency_ms": 20843.688011169434,
+  "timestamp": "2026-04-12T21:24:58"
+}

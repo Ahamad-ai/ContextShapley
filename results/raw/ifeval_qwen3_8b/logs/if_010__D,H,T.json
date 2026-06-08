@@ -1,0 +1,15 @@
+{
+  "call_id": "if_010__D,H,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList the planets in our solar system."
+    }
+  ],
+  "response_text": "Here is the list of planets in our solar system, ordered from the Sun:\n\n1. Mercury  \n2. Venus  \n3. Earth  \n4. Mars  \n5. Jupiter  \n6. Saturn  \n7. Uranus  \n8. Neptune  \n\n**Note:** Pluto was previously considered the ninth planet but is now classified as a dwarf planet.",
+  "prompt_tokens": 150,
+  "completion_tokens": 499,
+  "latency_ms": 15109.238147735596,
+  "timestamp": "2026-04-13T07:23:03"
+}

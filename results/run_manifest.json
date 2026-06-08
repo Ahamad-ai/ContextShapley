@@ -1,0 +1,10 @@
+{
+  "model": "qwen3:8b",
+  "benchmarks": {
+    "ifeval": "results/raw/ifeval_qwen3_8b/ifeval_qwen3_8b_results.json",
+    "hotpotqa": "results/raw/hotpotqa_qwen3_8b/hotpotqa_qwen3_8b_results.json",
+    "gsm8k": "results/raw/gsm8k_qwen3_8b/gsm8k_qwen3_8b_results.json"
+  },
+  "total_time_min": 1189.01,
+  "timestamp": "2026-04-13T19:52:48"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5adf1c3f5542993a75d263ec__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nIn which six Western European territories have Celtic languages or cultural traits survived?"
+    }
+  ],
+  "response_text": "The six Western European territories where Celtic languages or cultural traits have survived are:\n\n1. **Ireland**  \n   - **Language**: Irish (Gaeilge), a Goidelic Celtic language.  \n   - **Cultural Traits**: Traditional music, festivals like L\u00e1 N\u00e1la, and the Claddagh ring.\n\n2. **Scotland**  \n   - **Language**: Scottish Gaelic (G\u00e0idhlig), a Goidelic Celtic language.  \n   - **Cultural Traits**: Highland games, tartan, and the bagpipes.\n\n3. **Wales**  \n   - **Language**: Welsh (Cymraeg), a Brythonic Celtic language.  \n   - **Cultural Traits**: Welsh rugby, the Eisteddfod festival, and traditional music.\n\n4. **Cornwall (England)**  \n   - **Language**: Cornish (Kernewek), a revived Brythonic Celtic language.  \n   - **Cultural Traits**: Cornish wrestling, the Cornish language revival, and traditional festivals.\n\n5. **Brittany (France)**  \n   - **Language**: Breton (Brezhoneg), a Brythonic Celtic language.  \n   - **Cultural Traits**: Cornish (a local dialect), Breton music, and festivals like the Festival Interceltique de Lorient.\n\n6. **Isle of Man**  \n   - **Language**: Manx (Gaelg), a Goidelic Celtic language (though nearly extinct, it is being revived).  \n   - **Cultural Traits**: Manx music, the Tynwald (traditional parliament), and the Manx language revival efforts.\n\nThese regions represent the core areas where Celtic languages and cultural heritage have persisted, despite historical pressures from dominant languages and cultures.",
+  "prompt_tokens": 27,
+  "completion_tokens": 1002,
+  "latency_ms": 38129.77695465088,
+  "timestamp": "2026-04-13T08:45:45"
+}

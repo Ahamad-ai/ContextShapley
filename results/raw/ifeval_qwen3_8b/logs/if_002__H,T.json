@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__H,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy (usually from the sun) into chemical energy stored in glucose, a type of sugar. This process occurs in the chloroplasts of plant cells, which contain the pigment **chlorophyll** that captures sunlight.  \n\n**Key components**:  \n1. **Carbon dioxide (CO\u2082)**: Absorbed from the air through leaf stomata.  \n2. **Water (H\u2082O)**: Taken in through roots from the soil.  \n3. **Sunlight**: Provides the energy to drive the reaction.  \n\n**Chemical equation**:  \n6CO\u2082 + 6H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 (glucose) + 6O\u2082  \n\n**Outcome**:  \n- **Glucose**: Used by the plant for energy and growth.  \n- **Oxygen (O\u2082)**: Released into the atmosphere as a byproduct, vital for most life forms.  \n\nPhotosynthesis sustains ecosystems by producing oxygen and forming the base of the food chain. \ud83c\udf3f\u2600\ufe0f",
+  "prompt_tokens": 92,
+  "completion_tokens": 473,
+  "latency_ms": 15498.043298721313,
+  "timestamp": "2026-04-13T00:11:06"
+}

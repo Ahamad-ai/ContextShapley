@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__E,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "Machine learning is a branch of artificial intelligence in which computers learn patterns from data to make predictions or decisions without being explicitly programmed for each task. It includes methods like supervised, unsupervised, and reinforcement learning and powers applications such as classification, recommendation, forecasting, and anomaly detection.",
+  "prompt_tokens": 108,
+  "completion_tokens": 514,
+  "latency_ms": 7917.486667633057,
+  "timestamp": "2026-04-12T20:14:06"
+}

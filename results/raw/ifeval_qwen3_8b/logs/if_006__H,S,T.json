@@ -1,0 +1,19 @@
+{
+  "call_id": "if_006__H,S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond with a comma-separated list. Do not use periods."
+    },
+    {
+      "role": "user",
+      "content": "## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nName five countries in Europe."
+    }
+  ],
+  "response_text": "France, Germany, Italy, Spain, United Kingdom",
+  "prompt_tokens": 108,
+  "completion_tokens": 256,
+  "latency_ms": 946359.9090576172,
+  "timestamp": "2026-04-13T06:51:49"
+}

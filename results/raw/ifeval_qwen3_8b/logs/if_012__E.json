@@ -1,0 +1,15 @@
+{
+  "call_id": "if_012__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Question\n\nDescribe the color blue."
+    }
+  ],
+  "response_text": "Blue is a primary color in the visible spectrum, typically associated with the wavelengths of light around 450\u2013495 nanometers. It is often linked to the sky, oceans, and cool temperatures. Shades of blue range from light (e.g., sky blue, baby blue) to dark (e.g., navy, indigo), each evoking different emotions\u2014calmness, trust, or melancholy. In nature, it appears in flowers, animals, and natural landscapes. Culturally, blue symbolizes stability, creativity, and serenity, and is widely used in design, technology, and branding.",
+  "prompt_tokens": 70,
+  "completion_tokens": 523,
+  "latency_ms": 15814.459085464478,
+  "timestamp": "2026-04-13T07:34:04"
+}

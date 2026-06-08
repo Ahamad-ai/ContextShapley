@@ -1,0 +1,15 @@
+{
+  "call_id": "gsm8k_0000__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Arithmetic Reference\n- To find a total, add all quantities together.\n- To find a difference, subtract the smaller from the larger.\n- To find a rate, divide quantity by time.\n- To find a percentage, multiply by the decimal form (e.g., 20% = 0.20).\n- Always check your answer by working backwards.\n\n## Question\n\nSean is practicing for his role in a theater production. He has to memorize his lines for two scenes and the lyrics to one solo song. His solo song has 54 lines in the lyrics. The first scene has twice the number of lines, but only a third of them are his lines. The second scene has six more lines than the song, and four-fifths of them are his. How many lines does Sean have to memorize?"
+    }
+  ],
+  "response_text": "",
+  "prompt_tokens": 183,
+  "completion_tokens": 2048,
+  "latency_ms": 122324.49793815613,
+  "timestamp": "2026-04-13T12:26:11"
+}

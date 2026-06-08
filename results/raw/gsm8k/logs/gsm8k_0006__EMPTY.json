@@ -1,0 +1,15 @@
+{
+  "call_id": "gsm8k_0006__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nA perfume company is trying to create new scents. They already have 4 vanilla scents and 8 fruity scents available and they need to decide which kind of scent to focus on. They decide to focus on whichever scent sells the most and monitor their number of sales as part of their research. By the end of the day, they sell 5 of each of the vanilla scents and 2 of each of the fruity scents available. How many more vanilla scents sold compared with the fruity scents?"
+    }
+  ],
+  "response_text": "They sold 4 vanilla scents \u00d7 5 each = 20 units, and 8 fruity scents \u00d7 2 each = 16 units.  \nDifference: 20 \u2212 16 = 4.  \nSo, 4 more vanilla units were sold than fruity units.",
+  "prompt_tokens": 107,
+  "completion_tokens": 321,
+  "latency_ms": 5701.569080352783,
+  "timestamp": "2026-04-12T21:52:27"
+}

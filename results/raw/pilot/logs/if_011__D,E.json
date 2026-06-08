@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__D,E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: What is 2+2?\nSystem: Respond with only the number.\nA: 4\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "- Web backends and APIs (Django, Flask, FastAPI)\n- Data analysis and visualization (NumPy, pandas, Matplotlib, Seaborn)\n- Machine learning and AI (scikit-learn, TensorFlow, PyTorch)\n- Automation and scripting (file/system tasks, ETL, Excel/CSV, web scraping with Beautiful Soup, Scrapy, Selenium)\n- Scientific computing and research (SciPy, Jupyter, bio/astro libraries)\n- DevOps and cloud tooling (Ansible, CI/CD scripts, AWS/GCP/Azure SDKs)\n- Testing and QA (unittest, pytest, test automation)\n- Desktop apps and GUIs (PyQt, Tkinter, Kivy)\n- Game and multimedia prototyping (Pygame, Blender scripting)\n- Networking and cybersecurity (sockets, Scapy)\n- IoT and embedded (MicroPython, CircuitPython)\n- Education and rapid prototyping due to readability and large ecosystem",
+  "prompt_tokens": 124,
+  "completion_tokens": 652,
+  "latency_ms": 10111.632823944092,
+  "timestamp": "2026-04-12T19:29:51"
+}

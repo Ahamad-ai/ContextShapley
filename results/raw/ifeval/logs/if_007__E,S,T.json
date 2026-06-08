@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__E,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Most earthquakes are caused by the build-up and sudden release of stress along faults as tectonic plates move, with friction locking rocks until the stress exceeds their strength and they slip abruptly (elastic rebound), sending out seismic waves; this is most common at plate boundaries such as subduction zones, transform faults, and mid-ocean ridges, but quakes also occur within plates when old faults are reactivated by regional stresses or changes in crustal loading. Additional triggers include volcanic and magmatic movement, landslides or rockbursts, and human activities like reservoir impoundment, mining, geothermal operations, wastewater injection, and occasionally hydraulic fracturing; deep-focus earthquakes happen within subducting slabs, and foreshocks and aftershocks represent the crust adjusting to the changed stress field after the main rupture.",
+  "prompt_tokens": 125,
+  "completion_tokens": 622,
+  "latency_ms": 9455.421924591064,
+  "timestamp": "2026-04-12T20:22:45"
+}

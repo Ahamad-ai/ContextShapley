@@ -1,0 +1,15 @@
+{
+  "call_id": "gsm8k_0008__EMPTY",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nMarcy makes homemade candles that she markets as 99% guaranteed not to explode. 5% of the more dangerous candles also have a defect that makes them smell like wet dog. If she makes 50000 candles, how many of them will both smell like wet dog and explode?"
+    }
+  ],
+  "response_text": "25\n\nExplanation:\n- 1% explode \u21d2 0.01 \u00d7 50,000 = 500 candles.\n- 5% of those smell like wet dog \u21d2 0.05 \u00d7 500 = 25 candles.",
+  "prompt_tokens": 67,
+  "completion_tokens": 441,
+  "latency_ms": 5959.020137786865,
+  "timestamp": "2026-04-12T21:57:21"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_015__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in Q&A format: restate the question, then answer. Use exactly 2 sentences for the answer."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhy is the sky blue?"
+    }
+  ],
+  "response_text": "Why is the sky blue? The sky appears blue due to Rayleigh scattering, where shorter wavelengths of light (like blue and violet) are scattered more by the atmosphere. Our eyes are more sensitive to blue light, and some violet light is absorbed, making the sky appear blue.",
+  "prompt_tokens": 76,
+  "completion_tokens": 169,
+  "latency_ms": 4994.519948959351,
+  "timestamp": "2026-04-13T07:51:11"
+}

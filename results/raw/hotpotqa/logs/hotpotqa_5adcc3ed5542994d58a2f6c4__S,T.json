@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adcc3ed5542994d58a2f6c4__S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"web_search\", \"query\": \"What group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?\", \"status\": \"success\", \"results\": [{\"snippet\": \"Based on available sources, the answer involves: the \"First Family of Competitive Eating\".\", \"source\": \"encyclopedia\"}]}\n\n## Question\n\nWhat group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?"
+    }
+  ],
+  "response_text": "The First Family of Competitive Eating.",
+  "prompt_tokens": 141,
+  "completion_tokens": 337,
+  "latency_ms": 5034.003973007202,
+  "timestamp": "2026-04-12T21:27:18"
+}

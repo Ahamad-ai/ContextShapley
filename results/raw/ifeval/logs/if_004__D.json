@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle is the continuous movement of water within the Earth\u2013atmosphere system, driven by solar energy and gravity. Key processes include:\n\n- Evaporation: Liquid water from oceans, lakes, and soils absorbs heat and becomes water vapor. Oceans are the largest source.\n- Transpiration: Plants release water vapor from leaves; combined with evaporation, this is called evapotranspiration.\n- Sublimation: In cold, dry conditions, ice and snow can turn directly into vapor.\n- Advection: Winds transport water vapor horizontally through the atmosphere.\n- Condensation: As moist air cools, vapor condenses onto tiny particles to form cloud droplets or ice crystals; this releases latent heat that fuels weather.\n- Precipitation: Water falls as rain, snow, sleet, or hail when droplets/crystals grow large enough. Some precipitation evaporates before reaching the ground (virga).\n- Interception and canopy evaporation: Some precipitation is caught by vegetation and evaporates back to the atmosphere.\n- Infiltration and percolation: Water that reaches the ground soaks into soil; some remains as soil moisture, and some percolates deeper to recharge groundwater.\n- Runoff: When rainfall exceeds infiltration capacity or soils are saturated, water flows over land into streams and rivers, eventually reaching lakes and the ocean.\n- Groundwater flow: Water stored in aquifers moves slowly and can feed springs, streams, and coastal waters; it\u2019s a long-term pathway back to the oceans.\n- Storage: Water resides temporarily in reservoirs such as the atmosphere (hours to days), rivers and lakes (days to years), soils (days to months), glaciers and ice sheets (years to millennia), and groundwater (months to millennia).\n\nTypical pathways include short ocean\u2013atmosphere\u2013ocean loops (evaporation over the ocean followed by precipitation back to the ocean) and longer land loops (moisture evaporated from oceans is transported over land, falls as precipitation, and returns via runoff and groundwater to the sea).\n\nHuman activities alter the cycle by changing land cover (urbanization, deforestation), storing and diverting water (dams, irrigation), pumping groundwater, and warming the climate, which generally intensifies the cycle\u2014boosting evaporation and atmospheric moisture, increasing heavy rainfall, and shifting snowmelt and drought patterns.",
+  "prompt_tokens": 71,
+  "completion_tokens": 993,
+  "latency_ms": 17037.841796875,
+  "timestamp": "2026-04-12T20:07:09"
+}

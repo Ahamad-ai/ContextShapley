@@ -1,0 +1,19 @@
+{
+  "call_id": "gsm8k_0002__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a math problem solver. Solve the problem step by step, then give the final numerical answer on the last line in the format: #### <number>"
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nA loaf of bread has 24 slices. If Abby can eat 2 slices a day while Josh can eat twice as much, how many days will the loaf of bread last?"
+    }
+  ],
+  "response_text": "Abby eats 2 slices per day, and Josh eats twice as much, which is 4 slices per day. Together, they consume 2 + 4 = 6 slices per day. The loaf has 24 slices, so the number of days it will last is 24 \u00f7 6 = 4. \n\n#### 4",
+  "prompt_tokens": 87,
+  "completion_tokens": 472,
+  "latency_ms": 93211.88282966614,
+  "timestamp": "2026-04-13T14:23:44"
+}

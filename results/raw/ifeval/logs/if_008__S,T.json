@@ -1,0 +1,19 @@
+{
+  "call_id": "if_008__S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use only words with 3 or fewer syllables. Keep response under 40 words."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nExplain gravity to a child."
+    }
+  ],
+  "response_text": "Gravity is a pull. Earth pulls things to its center. That is why you feel weight and why things fall down. It keeps you on the ground and keeps the moon going around Earth.",
+  "prompt_tokens": 66,
+  "completion_tokens": 752,
+  "latency_ms": 11738.687992095947,
+  "timestamp": "2026-04-12T20:27:34"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_011__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is Python used for?"
+    }
+  ],
+  "response_text": "Python is a general-purpose programming language used across many domains because it\u2019s easy to learn, readable, and has a vast ecosystem of libraries. Common uses include:\n\n- Web development: Building websites and APIs with Django, Flask, or FastAPI.\n- Data analysis and visualization: Cleaning, analyzing, and plotting data with Pandas, NumPy, Matplotlib, Seaborn, Plotly.\n- Machine learning and AI: Modeling and deployment with scikit-learn, TensorFlow, PyTorch; NLP with spaCy; computer vision with OpenCV.\n- Scripting and automation: Automating repetitive tasks, file processing, reports, and RPA with Selenium or Playwright.\n- DevOps and cloud: Provisioning and deployment with Ansible/Fabric; writing serverless functions (e.g., AWS Lambda); CLI tools.\n- Scientific computing and research: Numerical methods and simulations with SciPy; notebooks with Jupyter; domain libs like BioPython, Astropy.\n- Data engineering and ETL: Pipelines and scheduling with Airflow, Prefect; parallel/distributed processing with Dask; big data via PySpark.\n- Desktop applications: GUIs with Tkinter, PyQt/PySide, Kivy.\n- Web scraping and bots: Collecting web data with Requests, BeautifulSoup, Scrapy.\n- Testing and QA: Unit, integration, and automation testing with pytest, unittest, Robot Framework.\n- Games and multimedia: Prototyping and 2D games with Pygame; scripting tools like Blender.\n- Embedded/IoT: Running on microcontrollers with MicroPython/CircuitPython; Raspberry Pi projects.\n- Networking and APIs: Building network tools and async services with asyncio, Twisted, FastAPI.\n- Education and rapid prototyping: Teaching programming concepts and quickly validating ideas.\n\nIt\u2019s popular because it\u2019s cross-platform, has strong community support, and integrates well with C/C++ and other languages when performance is critical.",
+  "prompt_tokens": 72,
+  "completion_tokens": 1427,
+  "latency_ms": 21356.39500617981,
+  "timestamp": "2026-04-12T20:38:13"
+}

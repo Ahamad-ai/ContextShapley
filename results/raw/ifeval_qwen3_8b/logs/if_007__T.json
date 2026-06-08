@@ -1,0 +1,15 @@
+{
+  "call_id": "if_007__T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "Earthquakes are primarily caused by the sudden release of energy in the Earth's crust, which creates seismic waves. This energy release occurs due to **tectonic plate movements**, as the Earth's lithosphere is divided into massive, rigid plates that float on the semi-fluid asthenosphere. Key causes include:\n\n1. **Tectonic Plate Movement**:  \n   - **Convergent boundaries** (plates colliding): Subduction zones (e.g., Japan, Chile) or thrust faults (e.g., Himalayas).  \n   - **Divergent boundaries** (plates pulling apart): Mid-ocean ridges (e.g., Mid-Atlantic Ridge).  \n   - **Transform boundaries** (plates sliding past each other): Strike-slip faults like the San Andreas Fault.  \n\n2. **Volcanic Activity**: Magma movement beneath the surface can trigger earthquakes (e.g., during eruptions or magma chamber pressurization).  \n\n3. **Human Activities**:  \n   - Reservoir-induced seismicity (e.g., dams filling reservoirs).  \n   - Underground fluid injection (e.g., fracking, wastewater disposal).  \n   - Mining and nuclear testing.  \n\n4. **Other Triggers**: Landslides, glacier movements, or sudden pressure changes in the crust.  \n\nMost earthquakes (about 90%) occur at tectonic plate boundaries, while the remaining are \"induced\" by human activity or other localized factors. The energy released is measured on the **Richter scale** or **Moment Magnitude Scale**, with larger quakes causing more destruction.",
+  "prompt_tokens": 46,
+  "completion_tokens": 692,
+  "latency_ms": 17600.97599029541,
+  "timestamp": "2026-04-13T07:06:18"
+}

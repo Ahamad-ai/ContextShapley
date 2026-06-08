@@ -1,0 +1,19 @@
+{
+  "call_id": "if_010__S,T",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use a numbered list (1. 2. 3. ...). Include exactly 8 items."
+    },
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList the planets in our solar system."
+    }
+  ],
+  "response_text": "1. Mercury  \n2. Venus  \n3. Earth  \n4. Mars  \n5. Jupiter  \n6. Saturn  \n7. Uranus  \n8. Neptune",
+  "prompt_tokens": 76,
+  "completion_tokens": 278,
+  "latency_ms": 7888.627052307129,
+  "timestamp": "2026-04-13T07:20:37"
+}

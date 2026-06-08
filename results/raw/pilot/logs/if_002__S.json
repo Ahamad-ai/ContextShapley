@@ -1,0 +1,19 @@
+{
+  "call_id": "if_002__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in exactly two sentences. Do not use the word 'sunlight'."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and some bacteria use light energy to convert carbon dioxide and water into sugars, releasing oxygen. Pigments such as chlorophyll capture the energy and drive a series of reactions that store it in chemical bonds.",
+  "prompt_tokens": 34,
+  "completion_tokens": 637,
+  "latency_ms": 8468.301773071289,
+  "timestamp": "2026-04-12T19:34:53"
+}

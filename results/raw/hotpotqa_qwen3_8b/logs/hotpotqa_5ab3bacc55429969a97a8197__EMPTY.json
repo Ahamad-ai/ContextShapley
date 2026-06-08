@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ab3bacc55429969a97a8197__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWho sang lead vocals on the Oasis hit single which had an acoustic debut in drummer Tony McCarroll's last concert ? "
+    }
+  ],
+  "response_text": "The lead vocalist on the Oasis hit single that had an acoustic debut in drummer Tony McCarroll's last concert is **Liam Gallagher**. \n\n**Key Details:**\n- **Song:** \"Wonderwall\" (or another hit like \"Don't Look Back in Anger\") is likely the track in question, as it was a major hit and often performed acoustically.\n- **Tony McCarroll's Last Concert:** McCarroll left Oasis in 2000, and his final performance with the band was during their farewell tour or a one-off event. The acoustic version of a hit song (such as \"Wonderwall\") was likely performed during this event.\n- **Lead Vocalist:** Liam Gallagher is the primary lead vocalist for Oasis, singing the majority of their hit songs, including \"Wonderwall\" and \"Don't Look Back in Anger.\"\n\n**Answer:** Liam Gallagher.",
+  "prompt_tokens": 38,
+  "completion_tokens": 1106,
+  "latency_ms": 30974.9858379364,
+  "timestamp": "2026-04-13T07:54:54"
+}

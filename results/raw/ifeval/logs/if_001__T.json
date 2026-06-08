@@ -1,0 +1,15 @@
+{
+  "call_id": "if_001__T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- Improves cardiovascular health: strengthens the heart, lowers blood pressure and LDL cholesterol, and reduces risk of heart disease and stroke.\n- Boosts mental well\u2011being: releases endorphins, reduces stress, anxiety, and depression, and can enhance sleep and cognitive function.\n- Aids weight and metabolic health: increases energy expenditure, builds muscle, improves insulin sensitivity, and lowers risk of type 2 diabetes.",
+  "prompt_tokens": 44,
+  "completion_tokens": 349,
+  "latency_ms": 5388.998031616211,
+  "timestamp": "2026-04-12T19:53:50"
+}

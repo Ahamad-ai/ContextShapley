@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5ab3bacc55429969a97a8197__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWho sang lead vocals on the Oasis hit single which had an acoustic debut in drummer Tony McCarroll's last concert ? "
+    }
+  ],
+  "response_text": "Liam Gallagher.",
+  "prompt_tokens": 75,
+  "completion_tokens": 259,
+  "latency_ms": 7740.896940231323,
+  "timestamp": "2026-04-13T07:55:02"
+}

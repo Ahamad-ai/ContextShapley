@@ -1,0 +1,19 @@
+{
+  "call_id": "hotpotqa_5adcc3ed5542994d58a2f6c4__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a question-answering system. Answer the question using only the information provided. Give a short, direct answer. Do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Phillip Pullman's book set in a parallel universe featuring a character named Lyra Belacqua was put into audio in what year?\nA: 2002\n\nQ: Which port city lies approximately 25 km north of the Lingnan Fine Arts Museum?\nA: Keelung\n\nQ: Who will Billy Howle be seen opposite in the upcoming British drama film directed by Dominic Cooke?\nA: Saoirse Ronan\n\n## Question\n\nWhat group did Carlene LeFevre and Rich LeFevre form in Brooklyn, New York City?"
+    }
+  ],
+  "response_text": "International Federation of Competitive Eating (IFOCE)",
+  "prompt_tokens": 155,
+  "completion_tokens": 1363,
+  "latency_ms": 16826.40504837036,
+  "timestamp": "2026-04-12T21:26:49"
+}

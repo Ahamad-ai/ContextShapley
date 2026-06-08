@@ -1,0 +1,19 @@
+{
+  "call_id": "if_014__S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use the word 'data' at least 3 times in your response. Keep it under 60 words."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nExplain what a database is."
+    }
+  ],
+  "response_text": "A database is an organized collection of data, storing, managing, and retrieving data efficiently. It ensures data integrity and security, enabling quick access and analysis. Data is structured for easy retrieval, supporting applications and decision-making.",
+  "prompt_tokens": 48,
+  "completion_tokens": 185,
+  "latency_ms": 5517.163038253784,
+  "timestamp": "2026-04-13T07:43:36"
+}

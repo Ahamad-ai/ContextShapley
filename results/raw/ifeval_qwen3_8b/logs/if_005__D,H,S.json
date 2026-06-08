@@ -1,0 +1,19 @@
+{
+  "call_id": "if_005__D,H,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Respond in all uppercase letters. Keep your response under 50 words."
+    },
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "MACHINE LEARNING IS A BRANCH OF ARTIFICIAL INTELLIGENCE WHERE SYSTEMS LEARN PATTERNS FROM DATA TO MAKE DECISIONS OR PREDICTIONS WITHOUT EXPLICIT PROGRAMMING. IT USES ALGORITHMS TO IDENTIFY TRENDS AND IMPROVE PERFORMANCE OVER TIME THROUGH EXPERIENCE.",
+  "prompt_tokens": 138,
+  "completion_tokens": 173,
+  "latency_ms": 4766.268968582153,
+  "timestamp": "2026-04-13T00:28:52"
+}

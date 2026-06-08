@@ -1,0 +1,15 @@
+{
+  "call_id": "if_009__EMPTY",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "The capital of Japan is **Tokyo**. It is the political, economic, and cultural center of the country and serves as the seat of the Japanese government.",
+  "prompt_tokens": 20,
+  "completion_tokens": 169,
+  "latency_ms": 4747.610807418823,
+  "timestamp": "2026-04-13T07:16:37"
+}

@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__E,S",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes are primarily caused by the sudden release of energy from the Earth's crust as tectonic plates shift and interact, creating seismic waves that shake the ground. This movement occurs along fault lines where stress builds up over time and is abruptly released, often due to plate collisions, divergences, or sliding.",
+  "prompt_tokens": 102,
+  "completion_tokens": 290,
+  "latency_ms": 7592.658042907715,
+  "timestamp": "2026-04-13T07:06:26"
+}

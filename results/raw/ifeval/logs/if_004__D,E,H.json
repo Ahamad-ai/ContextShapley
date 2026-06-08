@@ -1,0 +1,15 @@
+{
+  "call_id": "if_004__D,E,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "The water cycle is the continuous movement of water through Earth\u2019s atmosphere, surface, and subsurface, driven by solar energy and gravity. Sunlight heats oceans, lakes, and soils, causing evaporation, and plants release water vapor through transpiration. The rising vapor cools and condenses into clouds; winds transport these clouds until water returns to the surface as precipitation (rain, snow, sleet, or hail). Precipitation can run off into rivers and streams, infiltrate into soil to recharge groundwater, or be stored as snow and ice; sublimation and deposition also move water between ice and vapor. Groundwater flows slowly toward springs, rivers, and the ocean, while surface runoff returns water to larger bodies, completing the loop. This cycle regulates climate and distributes fresh water, and its intensity and timing are shaped by factors like topography, vegetation, and human-driven climate change.",
+  "prompt_tokens": 178,
+  "completion_tokens": 956,
+  "latency_ms": 9668.167114257812,
+  "timestamp": "2026-04-12T20:10:50"
+}

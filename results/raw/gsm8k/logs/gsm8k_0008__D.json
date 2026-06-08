@@ -1,0 +1,15 @@
+{
+  "call_id": "gsm8k_0008__D",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Arithmetic Reference\n- To find a total, add all quantities together.\n- To find a difference, subtract the smaller from the larger.\n- To find a rate, divide quantity by time.\n- To find a percentage, multiply by the decimal form (e.g., 20% = 0.20).\n- Always check your answer by working backwards.\n\n## Question\n\nMarcy makes homemade candles that she markets as 99% guaranteed not to explode. 5% of the more dangerous candles also have a defect that makes them smell like wet dog. If she makes 50000 candles, how many of them will both smell like wet dog and explode?"
+    }
+  ],
+  "response_text": "25\n\nExplanation:\n- 1% of 50,000 candles explode \u21d2 0.01 \u00d7 50,000 = 500.\n- 5% of those exploding candles also smell like wet dog \u21d2 0.05 \u00d7 500 = 25.",
+  "prompt_tokens": 143,
+  "completion_tokens": 320,
+  "latency_ms": 5945.129871368408,
+  "timestamp": "2026-04-12T21:57:38"
+}

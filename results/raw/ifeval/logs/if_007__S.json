@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Most earthquakes happen when tectonic plates grind past, collide with, or pull away from each other and the crust fractures along faults; stress builds up as plates are locked by friction, then suddenly overcomes that friction in a stick\u2011slip failure, releasing stored elastic energy as seismic waves (the elastic rebound). This occurs at plate boundaries\u2014transform faults (e.g., strike\u2011slip), convergent margins (thrust and megathrust quakes, including the largest), and divergent boundaries (normal faulting at rifts and mid\u2011ocean ridges). Earthquakes also occur within plates when ancient faults are reactivated by far\u2011field stresses, rifting, flexure, or glacial rebound. In subduction zones, some quakes originate deep within the descending slab (to ~700 km), likely due to mineral phase changes and dehydration embrittlement rather than classic frictional sliding. Volcanic and geothermal systems can trigger smaller quakes as magma and fluids force their way through rock. Human activities\u2014such as wastewater or CO\u2082 injection, hydraulic fracturing, reservoir impoundment, and mining\u2014can induce seismicity by changing stresses and pore pressures on faults. Rarely, collapses, landslides, large explosions, or meteor impacts also generate earthquake-like shaking.",
+  "prompt_tokens": 31,
+  "completion_tokens": 721,
+  "latency_ms": 9097.920894622803,
+  "timestamp": "2026-04-12T20:19:23"
+}

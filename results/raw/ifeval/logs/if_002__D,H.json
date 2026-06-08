@@ -1,0 +1,15 @@
+{
+  "call_id": "if_002__D,H",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Question\n\nExplain what photosynthesis is."
+    }
+  ],
+  "response_text": "Photosynthesis is the process by which plants, algae, and certain bacteria convert light energy into chemical energy stored in sugars. Using the pigment chlorophyll (mainly in chloroplasts), they capture sunlight and use water and carbon dioxide to build glucose, releasing oxygen as a by-product. The process has two main stages: light-dependent reactions in the thylakoid membranes split water and generate ATP and NADPH while releasing O2; the Calvin cycle in the stroma uses ATP and NADPH to fix CO2 into carbohydrates. A simplified overall reaction is: 6 CO2 + 6 H2O + light energy \u2192 C6H12O6 + 6 O2. Photosynthesis underpins most food webs, removes CO2 from the atmosphere, and produces the oxygen that many organisms breathe. Its rate is influenced by light intensity and wavelength, temperature, CO2 concentration, and water availability.",
+  "prompt_tokens": 114,
+  "completion_tokens": 768,
+  "latency_ms": 8313.033819198608,
+  "timestamp": "2026-04-12T19:58:51"
+}

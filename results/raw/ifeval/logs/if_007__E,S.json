@@ -1,0 +1,19 @@
+{
+  "call_id": "if_007__E,S",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Start your response with 'ANSWER:' and keep it to one paragraph."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Question\n\nWhat causes earthquakes?"
+    }
+  ],
+  "response_text": "ANSWER: Earthquakes occur when stress builds up in Earth\u2019s crust as tectonic plates slowly move and rocks along faults lock, then suddenly slip, releasing energy as seismic waves. Most earthquakes happen at plate boundaries\u2014where plates collide and subduct, slide past each other, or pull apart\u2014but some occur within plates when ancient faults are reactivated. Volcanic activity and the movement of magma can also trigger quakes. Human activities that alter subsurface stresses and pore pressures, such as wastewater injection, geothermal projects, large reservoirs, and mining, can induce smaller earthquakes. The intensity of shaking depends on factors like the amount of slip, the size of the ruptured fault area, depth, and local rock and soil conditions, with aftershocks following as the crust adjusts.",
+  "prompt_tokens": 96,
+  "completion_tokens": 806,
+  "latency_ms": 12542.09280014038,
+  "timestamp": "2026-04-12T20:20:36"
+}

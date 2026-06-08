@@ -1,0 +1,15 @@
+{
+  "call_id": "hotpotqa_5ac39f7b554299218029dbe7__E",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: What occupation was shared by David Yates and Pietro Germi?\nA: director\n\nQ: In which film did Emilio Estevez star in in the same year as Nightmares\nA: The Outsiders\n\nQ: Ruddles Brewery is owned by a pub retailer and brewer based in what city?\nA: Bury St Edmunds\n\n## Question\n\nRobert Earl Holding owned an oil company that was originally founded by who?"
+    }
+  ],
+  "response_text": "Harry F. Sinclair",
+  "prompt_tokens": 97,
+  "completion_tokens": 206,
+  "latency_ms": 4179.615259170532,
+  "timestamp": "2026-04-12T21:09:14"
+}

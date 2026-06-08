@@ -1,0 +1,15 @@
+{
+  "call_id": "if_001__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nList three benefits of exercise."
+    }
+  ],
+  "response_text": "- **Improved cardiovascular health**: Regular exercise strengthens the heart and enhances circulation, reducing the risk of heart disease and stroke.  \n- **Enhanced mental well-being**: Physical activity reduces stress, anxiety, and depression while boosting mood through endorphin release.  \n- **Weight management**: Exercise helps burn calories, build muscle, and maintain a healthy weight by increasing metabolic rate.",
+  "prompt_tokens": 76,
+  "completion_tokens": 368,
+  "latency_ms": 9309.57818031311,
+  "timestamp": "2026-04-13T00:04:20"
+}

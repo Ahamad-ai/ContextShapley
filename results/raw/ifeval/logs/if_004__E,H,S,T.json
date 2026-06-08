@@ -1,0 +1,19 @@
+{
+  "call_id": "if_004__E,H,S,T",
+  "model": "gpt-5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Use exactly 5 sentences. Number each sentence (1. 2. 3. 4. 5.)."
+    },
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\n## Conversation History\n\nUser: I want to test your ability to follow instructions.\nAssistant: Sure! Give me a specific format or constraint and I'll do my best.\nUser: Great, here comes the test.\n\n## Tool Outputs\n\n{\"tool\": \"instruction_validator\", \"status\": \"ready\", \"message\": \"Will validate response against format constraints.\"}\n\n## Question\n\nDescribe the water cycle."
+    }
+  ],
+  "response_text": "1. The water cycle is the continuous movement of water through Earth's systems, driven primarily by solar energy. \n2. Water evaporates from oceans, lakes, and soils and transpires from plants, rising as vapor into the atmosphere. \n3. As moist air cools, water vapor condenses into clouds and eventually falls as precipitation such as rain, snow, sleet, or hail. \n4. Precipitated water infiltrates into the ground to recharge aquifers, or runs off into rivers and streams that flow back to larger water bodies. \n5. Water is collected in oceans, lakes, and glaciers, and the cycle\u2019s pathways and timing are influenced by temperature, topography, vegetation, and human impacts like land use and climate change.",
+  "prompt_tokens": 178,
+  "completion_tokens": 546,
+  "latency_ms": 5604.569911956787,
+  "timestamp": "2026-04-12T20:11:46"
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "if_005__E",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Examples\n\nQ: Define AI.\nSystem: Use exactly 2 sentences.\nA: AI stands for artificial intelligence. It refers to computer systems that can perform tasks typically requiring human intelligence.\n\nQ: Name three fruits.\nSystem: Respond in bullet points starting with -.\nA:\n- Apple\n- Banana\n- Orange\n\n## Question\n\nWhat is machine learning?"
+    }
+  ],
+  "response_text": "Machine learning is a subset of artificial intelligence. It involves algorithms that enable systems to learn from data and improve their performance over time without being explicitly programmed.",
+  "prompt_tokens": 83,
+  "completion_tokens": 350,
+  "latency_ms": 9633.517980575562,
+  "timestamp": "2026-04-13T00:26:16"
+}

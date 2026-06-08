@@ -1,0 +1,15 @@
+{
+  "call_id": "if_009__D",
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "## Reference Documents\n\n## Instruction Following Guide\n- Read the system instructions carefully before answering.\n- Pay attention to format requirements (JSON, bullets, numbering).\n- Count words/sentences if the instruction specifies a count.\n- Check constraints before submitting (forbidden words, required phrases).\n\n## Question\n\nWhat is the capital of Japan?"
+    }
+  ],
+  "response_text": "The capital of Japan is **Tokyo**.",
+  "prompt_tokens": 77,
+  "completion_tokens": 192,
+  "latency_ms": 5740.850925445557,
+  "timestamp": "2026-04-13T07:16:50"
+}
